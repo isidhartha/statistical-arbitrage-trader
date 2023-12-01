@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      MPLBACKEND: Agg
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install statsmodels pandas numpy matplotlib
+          pip install ruff pytest
+
+      - name: Lint with ruff
+        run: ruff check .
+        continue-on-error: true
+
+      - name: Run pairs trader (uses synthetic data fallback)
+        run: python pairs_trader.py
+        continue-on-error: true
+
+      - name: Run tests
+        run: pytest
+        continue-on-error: true

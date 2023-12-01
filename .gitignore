@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+data/*.csv
+*.png
+dist/
+build/
+.pytest_cache/
+.DS_Store
+output/
