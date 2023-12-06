@@ -11,3 +11,7 @@ All notable changes are documented here.
 - docs: add momentum signal formula to architecture.md
 
 
+### 2022-01-28
+- feat: add annualised CAGR and Sharpe ratio computation
+
+
