@@ -15,3 +15,7 @@ All notable changes are documented here.
 - feat: add annualised CAGR and Sharpe ratio computation
 
 
+### 2022-01-29
+- style: fix ruff lint violations across modules
+
+
