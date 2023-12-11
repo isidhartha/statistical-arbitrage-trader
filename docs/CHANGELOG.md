@@ -19,3 +19,7 @@ All notable changes are documented here.
 - style: fix ruff lint violations across modules
 
 
+### 2022-02-01
+- docs: add momentum signal formula to architecture.md
+
+
