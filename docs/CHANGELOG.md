@@ -23,3 +23,7 @@ All notable changes are documented here.
 - docs: add momentum signal formula to architecture.md
 
 
+### 2022-02-04
+- feat: implement reversal skip window for momentum strategy
+
+
