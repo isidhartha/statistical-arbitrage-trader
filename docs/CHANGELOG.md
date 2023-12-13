@@ -27,3 +27,7 @@ All notable changes are documented here.
 - feat: implement reversal skip window for momentum strategy
 
 
+### 2022-02-07
+- docs: add Newton-Raphson convergence notes to API.md
+
+
