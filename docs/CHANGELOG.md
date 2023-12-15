@@ -31,3 +31,7 @@ All notable changes are documented here.
 - docs: add Newton-Raphson convergence notes to API.md
 
 
+### 2022-02-08
+- fix: handle single-asset portfolio in ranking step
+
+
