@@ -35,3 +35,7 @@ All notable changes are documented here.
 - fix: handle single-asset portfolio in ranking step
 
 
+### 2022-02-09
+- feat: add equity curve export as PNG chart
+
+
