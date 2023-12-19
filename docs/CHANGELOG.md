@@ -39,3 +39,7 @@ All notable changes are documented here.
 - feat: add equity curve export as PNG chart
 
 
+### 2022-02-12
+- style: format all files with black
+
+
