@@ -43,3 +43,7 @@ All notable changes are documented here.
 - style: format all files with black
 
 
+### 2022-02-15
+- perf: cache rolling mean and std to avoid recomputation
+
+
