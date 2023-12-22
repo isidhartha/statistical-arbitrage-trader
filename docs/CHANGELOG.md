@@ -47,3 +47,7 @@ All notable changes are documented here.
 - perf: cache rolling mean and std to avoid recomputation
 
 
+### 2022-02-18
+- test: verify put-call parity holds for sampled params
+
+
