@@ -51,3 +51,7 @@ All notable changes are documented here.
 - test: verify put-call parity holds for sampled params
 
 
+### 2022-02-27
+- refactor: extract d1 d2 computation into shared helper
+
+
