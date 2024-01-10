@@ -55,3 +55,7 @@ All notable changes are documented here.
 - refactor: extract d1 d2 computation into shared helper
 
 
+### 2022-03-02
+- feat: implement Engle-Granger cointegration test screening
+
+
