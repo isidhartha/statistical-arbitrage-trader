@@ -59,3 +59,7 @@ All notable changes are documented here.
 - feat: implement Engle-Granger cointegration test screening
 
 
+### 2022-03-04
+- feat: implement long-short portfolio construction from rankings
+
+
