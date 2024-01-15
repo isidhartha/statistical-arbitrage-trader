@@ -67,3 +67,7 @@ All notable changes are documented here.
 - feat: implement BacktestConfig dataclass with all parameters
 
 
+### 2022-03-09
+- style: normalise import ordering with isort
+
+
