@@ -71,3 +71,7 @@ All notable changes are documented here.
 - style: normalise import ordering with isort
 
 
+### 2022-03-11
+- feat: implement synthetic cointegrated price data generator
+
+
