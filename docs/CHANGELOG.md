@@ -75,3 +75,7 @@ All notable changes are documented here.
 - feat: implement synthetic cointegrated price data generator
 
 
+### 2022-03-12
+- refactor: extract plot configuration to named constants
+
+
