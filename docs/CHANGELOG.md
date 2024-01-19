@@ -79,3 +79,7 @@ All notable changes are documented here.
 - refactor: extract plot configuration to named constants
 
 
+### 2022-03-17
+- docs: document Greeks interpretation and sign conventions
+
+
