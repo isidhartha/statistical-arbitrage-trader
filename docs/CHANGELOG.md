@@ -83,3 +83,7 @@ All notable changes are documented here.
 - docs: document Greeks interpretation and sign conventions
 
 
+### 2022-03-17
+- feat: implement option sensitivity sweep over spot range
+
+
