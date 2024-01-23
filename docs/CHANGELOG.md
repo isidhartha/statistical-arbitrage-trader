@@ -87,3 +87,7 @@ All notable changes are documented here.
 - feat: implement option sensitivity sweep over spot range
 
 
+### 2022-03-18
+- test: add momentum signal computation unit tests
+
+
