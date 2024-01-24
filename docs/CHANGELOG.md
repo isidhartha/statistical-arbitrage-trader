@@ -91,3 +91,7 @@ All notable changes are documented here.
 - test: add momentum signal computation unit tests
 
 
+### 2022-03-23
+- fix: fix stop-loss trigger for short positions
+
+
