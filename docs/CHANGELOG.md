@@ -95,3 +95,7 @@ All notable changes are documented here.
 - fix: fix stop-loss trigger for short positions
 
 
+### 2022-03-26
+- feat: add long-only mode disabling short portfolio leg
+
+
