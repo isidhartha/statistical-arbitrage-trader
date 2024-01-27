@@ -99,3 +99,7 @@ All notable changes are documented here.
 - feat: add long-only mode disabling short portfolio leg
 
 
+### 2022-03-29
+- feat: implement long-short portfolio construction from rankings
+
+
