@@ -103,3 +103,7 @@ All notable changes are documented here.
 - feat: implement long-short portfolio construction from rankings
 
 
+### 2022-04-01
+- style: normalise import ordering with isort
+
+
