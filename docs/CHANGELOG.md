@@ -107,3 +107,7 @@ All notable changes are documented here.
 - style: normalise import ordering with isort
 
 
+### 2022-04-03
+- chore: add pre-commit config for black and ruff
+
+
