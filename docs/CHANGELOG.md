@@ -111,3 +111,7 @@ All notable changes are documented here.
 - chore: add pre-commit config for black and ruff
 
 
+### 2022-04-04
+- feat: implement maximum drawdown calculation from equity curve
+
+
