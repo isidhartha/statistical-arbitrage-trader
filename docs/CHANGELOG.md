@@ -119,3 +119,7 @@ All notable changes are documented here.
 - feat: add long-only mode disabling short portfolio leg
 
 
+### 2022-04-12
+- fix: resolve NaN spread values at start of rolling window
+
+
