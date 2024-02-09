@@ -123,3 +123,7 @@ All notable changes are documented here.
 - fix: resolve NaN spread values at start of rolling window
 
 
+### 2022-04-15
+- test: add momentum signal computation unit tests
+
+
