@@ -127,3 +127,7 @@ All notable changes are documented here.
 - test: add momentum signal computation unit tests
 
 
+### 2022-04-18
+- chore: add pre-commit config for black and ruff
+
+
