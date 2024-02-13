@@ -131,3 +131,7 @@ All notable changes are documented here.
 - chore: add pre-commit config for black and ruff
 
 
+### 2022-04-19
+- chore: update requirements.txt with pinned versions
+
+
