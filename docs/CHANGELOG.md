@@ -135,3 +135,7 @@ All notable changes are documented here.
 - chore: update requirements.txt with pinned versions
 
 
+### 2022-04-20
+- refactor: extract d1 d2 computation into shared helper
+
+
