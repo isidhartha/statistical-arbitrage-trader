@@ -143,3 +143,7 @@ All notable changes are documented here.
 - docs: document cointegration theory in architecture.md
 
 
+### 2022-04-21
+- perf: reduce memory allocation in simulation loop
+
+
