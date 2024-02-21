@@ -147,3 +147,7 @@ All notable changes are documented here.
 - perf: reduce memory allocation in simulation loop
 
 
+### 2022-04-22
+- test: add cointegration screening test with synthetic data
+
+
