@@ -151,3 +151,7 @@ All notable changes are documented here.
 - test: add cointegration screening test with synthetic data
 
 
+### 2022-04-23
+- test: add regression tests for all five Greeks
+
+
