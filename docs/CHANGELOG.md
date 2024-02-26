@@ -159,3 +159,7 @@ All notable changes are documented here.
 - docs: add momentum signal formula to architecture.md
 
 
+### 2022-05-03
+- test: add regression tests for all five Greeks
+
+
