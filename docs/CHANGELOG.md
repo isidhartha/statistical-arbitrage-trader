@@ -167,3 +167,7 @@ All notable changes are documented here.
 - docs: update setup instructions for scipy dependency
 
 
+### 2022-05-05
+- feat: add configurable transaction cost per strategy leg
+
+
