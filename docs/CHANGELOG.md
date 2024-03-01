@@ -171,3 +171,7 @@ All notable changes are documented here.
 - feat: add configurable transaction cost per strategy leg
 
 
+### 2022-05-06
+- test: add regression tests for all five Greeks
+
+
