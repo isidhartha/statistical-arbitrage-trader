@@ -175,3 +175,7 @@ All notable changes are documented here.
 - test: add regression tests for all five Greeks
 
 
+### 2022-05-15
+- feat: implement OptionParams dataclass for clean pricing API
+
+
