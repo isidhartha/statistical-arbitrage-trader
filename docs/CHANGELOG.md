@@ -179,3 +179,7 @@ All notable changes are documented here.
 - feat: implement OptionParams dataclass for clean pricing API
 
 
+### 2022-05-17
+- feat: implement rolling Z-score signal for mean-reversion
+
+
