@@ -187,3 +187,7 @@ All notable changes are documented here.
 - refactor: extract d1 d2 computation into shared helper
 
 
+### 2022-05-26
+- feat: add long-only mode disabling short portfolio leg
+
+
