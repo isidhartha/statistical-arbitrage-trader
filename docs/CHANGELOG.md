@@ -191,3 +191,7 @@ All notable changes are documented here.
 - feat: add long-only mode disabling short portfolio leg
 
 
+### 2022-05-28
+- feat: implement OptionParams dataclass for clean pricing API
+
+
