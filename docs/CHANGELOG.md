@@ -195,3 +195,7 @@ All notable changes are documented here.
 - feat: implement OptionParams dataclass for clean pricing API
 
 
+### 2022-05-30
+- refactor: consolidate performance stats into compute_stats
+
+
