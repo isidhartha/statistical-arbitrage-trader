@@ -207,3 +207,7 @@ All notable changes are documented here.
 - fix: handle single-asset portfolio in ranking step
 
 
+### 2022-06-07
+- docs: add momentum signal formula to architecture.md
+
+
