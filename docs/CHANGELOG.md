@@ -215,3 +215,7 @@ All notable changes are documented here.
 - docs: add example usage for implied volatility solver
 
 
+### 2022-06-08
+- style: fix ruff lint violations across modules
+
+
