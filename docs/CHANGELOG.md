@@ -219,3 +219,7 @@ All notable changes are documented here.
 - style: fix ruff lint violations across modules
 
 
+### 2022-06-09
+- fix: resolve NaN spread values at start of rolling window
+
+
