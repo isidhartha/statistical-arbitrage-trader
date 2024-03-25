@@ -223,3 +223,7 @@ All notable changes are documented here.
 - fix: resolve NaN spread values at start of rolling window
 
 
+### 2022-06-11
+- feat: implement BacktestConfig dataclass with all parameters
+
+
