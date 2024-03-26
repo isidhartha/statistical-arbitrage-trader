@@ -227,3 +227,7 @@ All notable changes are documented here.
 - feat: implement BacktestConfig dataclass with all parameters
 
 
+### 2022-06-13
+- fix: correct cointegration p-value threshold comparison
+
+
