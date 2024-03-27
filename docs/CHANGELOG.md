@@ -231,3 +231,7 @@ All notable changes are documented here.
 - fix: correct cointegration p-value threshold comparison
 
 
+### 2022-06-17
+- docs: add momentum signal formula to architecture.md
+
+
