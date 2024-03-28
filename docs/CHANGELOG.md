@@ -235,3 +235,7 @@ All notable changes are documented here.
 - docs: add momentum signal formula to architecture.md
 
 
+### 2022-06-17
+- test: add ADF stationarity test on synthetic spread
+
+
