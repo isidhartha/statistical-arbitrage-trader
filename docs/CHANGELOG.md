@@ -239,3 +239,7 @@ All notable changes are documented here.
 - test: add ADF stationarity test on synthetic spread
 
 
+### 2022-06-21
+- feat: add configurable transaction cost per strategy leg
+
+
