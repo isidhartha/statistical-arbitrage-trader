@@ -247,3 +247,7 @@ All notable changes are documented here.
 - refactor: separate pricing logic from Greeks computation
 
 
+### 2022-07-05
+- refactor: move synthetic data generators to data_utils
+
+
