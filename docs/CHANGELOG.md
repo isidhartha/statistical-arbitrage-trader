@@ -251,3 +251,7 @@ All notable changes are documented here.
 - refactor: move synthetic data generators to data_utils
 
 
+### 2022-07-05
+- docs: document all BacktestConfig parameters in README
+
+
