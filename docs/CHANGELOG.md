@@ -255,3 +255,7 @@ All notable changes are documented here.
 - docs: document all BacktestConfig parameters in README
 
 
+### 2022-07-05
+- fix: correct theta formula for European put options
+
+
