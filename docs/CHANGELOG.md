@@ -263,3 +263,7 @@ All notable changes are documented here.
 - fix: fix momentum score when lookback exceeds available data
 
 
+### 2022-07-19
+- feat: add entry exit and stop-loss threshold configuration
+
+
