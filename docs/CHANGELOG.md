@@ -267,3 +267,7 @@ All notable changes are documented here.
 - feat: add entry exit and stop-loss threshold configuration
 
 
+### 2022-07-20
+- fix: correct cointegration p-value threshold comparison
+
+
