@@ -271,3 +271,7 @@ All notable changes are documented here.
 - fix: correct cointegration p-value threshold comparison
 
 
+### 2022-07-23
+- fix: resolve NaN spread values at start of rolling window
+
+
