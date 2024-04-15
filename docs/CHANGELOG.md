@@ -275,3 +275,7 @@ All notable changes are documented here.
 - fix: resolve NaN spread values at start of rolling window
 
 
+### 2022-07-24
+- refactor: consolidate performance stats into compute_stats
+
+
