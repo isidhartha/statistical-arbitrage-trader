@@ -279,3 +279,7 @@ All notable changes are documented here.
 - refactor: consolidate performance stats into compute_stats
 
 
+### 2022-07-26
+- test: add IV solver convergence test for ATM option
+
+
