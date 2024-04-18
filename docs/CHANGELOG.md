@@ -287,3 +287,7 @@ All notable changes are documented here.
 - style: normalise import ordering with isort
 
 
+### 2022-07-29
+- feat: add 3-panel pair visualisation prices spread Z-score
+
+
