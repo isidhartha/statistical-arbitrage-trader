@@ -291,3 +291,7 @@ All notable changes are documented here.
 - feat: add 3-panel pair visualisation prices spread Z-score
 
 
+### 2022-08-01
+- feat: add entry exit and stop-loss threshold configuration
+
+
