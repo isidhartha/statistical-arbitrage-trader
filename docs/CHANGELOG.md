@@ -295,3 +295,7 @@ All notable changes are documented here.
 - feat: add entry exit and stop-loss threshold configuration
 
 
+### 2022-08-01
+- docs: add mathematical derivation notes for Black-Scholes
+
+
