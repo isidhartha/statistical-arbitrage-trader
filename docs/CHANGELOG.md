@@ -299,3 +299,7 @@ All notable changes are documented here.
 - docs: add mathematical derivation notes for Black-Scholes
 
 
+### 2022-08-05
+- perf: vectorise momentum score computation with numpy
+
+
