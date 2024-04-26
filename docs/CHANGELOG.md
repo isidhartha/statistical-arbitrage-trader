@@ -303,3 +303,7 @@ All notable changes are documented here.
 - perf: vectorise momentum score computation with numpy
 
 
+### 2022-08-09
+- feat: add entry exit and stop-loss threshold configuration
+
+
