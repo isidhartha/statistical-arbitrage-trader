@@ -307,3 +307,7 @@ All notable changes are documented here.
 - feat: add entry exit and stop-loss threshold configuration
 
 
+### 2022-08-10
+- docs: document all BacktestConfig parameters in README
+
+
