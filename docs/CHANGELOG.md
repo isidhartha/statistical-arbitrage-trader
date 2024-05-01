@@ -315,3 +315,7 @@ All notable changes are documented here.
 - perf: reduce memory allocation in simulation loop
 
 
+### 2022-08-25
+- test: add unit tests for Black-Scholes call price
+
+
