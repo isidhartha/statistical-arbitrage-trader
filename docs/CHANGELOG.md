@@ -319,3 +319,7 @@ All notable changes are documented here.
 - test: add unit tests for Black-Scholes call price
 
 
+### 2022-08-26
+- chore: add pre-commit config for black and ruff
+
+
