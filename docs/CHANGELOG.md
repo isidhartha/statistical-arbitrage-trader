@@ -323,3 +323,7 @@ All notable changes are documented here.
 - chore: add pre-commit config for black and ruff
 
 
+### 2022-09-01
+- fix: resolve matplotlib backend error on headless systems
+
+
