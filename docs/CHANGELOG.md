@@ -327,3 +327,7 @@ All notable changes are documented here.
 - fix: resolve matplotlib backend error on headless systems
 
 
+### 2022-09-02
+- feat: implement rolling Z-score signal for mean-reversion
+
+
