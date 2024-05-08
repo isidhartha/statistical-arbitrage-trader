@@ -331,3 +331,7 @@ All notable changes are documented here.
 - feat: implement rolling Z-score signal for mean-reversion
 
 
+### 2022-09-12
+- fix: fix max drawdown calculation at series start
+
+
