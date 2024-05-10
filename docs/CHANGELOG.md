@@ -335,3 +335,7 @@ All notable changes are documented here.
 - fix: fix max drawdown calculation at series start
 
 
+### 2022-09-18
+- fix: resolve NaN spread values at start of rolling window
+
+
