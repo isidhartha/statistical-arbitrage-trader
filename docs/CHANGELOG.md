@@ -339,3 +339,7 @@ All notable changes are documented here.
 - fix: resolve NaN spread values at start of rolling window
 
 
+### 2022-09-22
+- fix: handle single-asset portfolio in ranking step
+
+
