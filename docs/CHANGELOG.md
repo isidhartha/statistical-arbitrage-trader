@@ -347,3 +347,7 @@ All notable changes are documented here.
 - feat: add transaction cost modelling in basis points
 
 
+### 2022-09-27
+- refactor: separate pricing logic from Greeks computation
+
+
