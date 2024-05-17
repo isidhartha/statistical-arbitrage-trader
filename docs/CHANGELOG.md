@@ -351,3 +351,7 @@ All notable changes are documented here.
 - refactor: separate pricing logic from Greeks computation
 
 
+### 2022-10-03
+- refactor: extract d1 d2 computation into shared helper
+
+
