@@ -355,3 +355,7 @@ All notable changes are documented here.
 - refactor: extract d1 d2 computation into shared helper
 
 
+### 2022-10-04
+- feat: implement long-short portfolio construction from rankings
+
+
