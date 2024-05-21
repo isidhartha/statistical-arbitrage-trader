@@ -359,3 +359,7 @@ All notable changes are documented here.
 - feat: implement long-short portfolio construction from rankings
 
 
+### 2022-10-04
+- feat: add equity curve export as PNG chart
+
+
