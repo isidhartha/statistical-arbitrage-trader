@@ -363,3 +363,7 @@ All notable changes are documented here.
 - feat: add equity curve export as PNG chart
 
 
+### 2022-10-05
+- feat: implement option sensitivity sweep over spot range
+
+
