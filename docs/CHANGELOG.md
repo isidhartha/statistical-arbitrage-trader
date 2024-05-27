@@ -375,3 +375,7 @@ All notable changes are documented here.
 - feat: add annualised CAGR and Sharpe ratio computation
 
 
+### 2022-10-09
+- feat: implement Black-Scholes pricing for European calls and puts
+
+
