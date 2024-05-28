@@ -379,3 +379,7 @@ All notable changes are documented here.
 - feat: implement Black-Scholes pricing for European calls and puts
 
 
+### 2022-10-17
+- fix: handle sigma approaching zero in Black-Scholes formula
+
+
