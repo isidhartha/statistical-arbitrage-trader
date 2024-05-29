@@ -383,3 +383,7 @@ All notable changes are documented here.
 - fix: handle sigma approaching zero in Black-Scholes formula
 
 
+### 2022-10-19
+- feat: add 3-panel pair visualisation prices spread Z-score
+
+
