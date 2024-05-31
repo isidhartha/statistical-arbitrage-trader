@@ -387,3 +387,7 @@ All notable changes are documented here.
 - feat: add 3-panel pair visualisation prices spread Z-score
 
 
+### 2022-10-24
+- test: add ADF stationarity test on synthetic spread
+
+
