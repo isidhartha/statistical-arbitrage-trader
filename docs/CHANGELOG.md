@@ -391,3 +391,7 @@ All notable changes are documented here.
 - test: add ADF stationarity test on synthetic spread
 
 
+### 2022-10-25
+- feat: implement Black-Scholes pricing for European calls and puts
+
+
