@@ -395,3 +395,7 @@ All notable changes are documented here.
 - feat: implement Black-Scholes pricing for European calls and puts
 
 
+### 2022-10-27
+- perf: reduce memory allocation in simulation loop
+
+
