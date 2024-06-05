@@ -399,3 +399,7 @@ All notable changes are documented here.
 - perf: reduce memory allocation in simulation loop
 
 
+### 2022-11-03
+- feat: implement long-short portfolio construction from rankings
+
+
