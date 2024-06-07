@@ -403,3 +403,7 @@ All notable changes are documented here.
 - feat: implement long-short portfolio construction from rankings
 
 
+### 2022-11-05
+- feat: implement BacktestConfig dataclass with all parameters
+
+
