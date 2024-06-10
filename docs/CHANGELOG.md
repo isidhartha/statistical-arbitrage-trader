@@ -407,3 +407,7 @@ All notable changes are documented here.
 - feat: implement BacktestConfig dataclass with all parameters
 
 
+### 2022-11-15
+- fix: handle empty returns series in performance stats
+
+
