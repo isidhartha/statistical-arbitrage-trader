@@ -415,3 +415,7 @@ All notable changes are documented here.
 - feat: implement rolling Z-score signal for mean-reversion
 
 
+### 2022-11-19
+- fix: fix stop-loss trigger for short positions
+
+
