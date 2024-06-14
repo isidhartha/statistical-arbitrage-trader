@@ -419,3 +419,7 @@ All notable changes are documented here.
 - fix: fix stop-loss trigger for short positions
 
 
+### 2022-11-21
+- docs: document all BacktestConfig parameters in README
+
+
