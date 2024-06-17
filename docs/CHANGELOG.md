@@ -423,3 +423,7 @@ All notable changes are documented here.
 - docs: document all BacktestConfig parameters in README
 
 
+### 2022-11-22
+- test: add ADF stationarity test on synthetic spread
+
+
