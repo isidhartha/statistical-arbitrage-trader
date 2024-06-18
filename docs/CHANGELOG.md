@@ -427,3 +427,7 @@ All notable changes are documented here.
 - test: add ADF stationarity test on synthetic spread
 
 
+### 2022-11-23
+- feat: implement long-short portfolio construction from rankings
+
+
