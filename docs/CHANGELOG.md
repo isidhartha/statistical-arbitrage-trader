@@ -431,3 +431,7 @@ All notable changes are documented here.
 - feat: implement long-short portfolio construction from rankings
 
 
+### 2022-11-25
+- feat: add configurable transaction cost per strategy leg
+
+
