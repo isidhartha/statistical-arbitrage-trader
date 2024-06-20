@@ -435,3 +435,7 @@ All notable changes are documented here.
 - feat: add configurable transaction cost per strategy leg
 
 
+### 2022-11-25
+- fix: fix momentum score when lookback exceeds available data
+
+
