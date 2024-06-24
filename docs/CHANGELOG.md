@@ -443,3 +443,7 @@ All notable changes are documented here.
 - feat: add configurable transaction cost per strategy leg
 
 
+### 2022-11-30
+- chore: update requirements.txt with pinned versions
+
+
