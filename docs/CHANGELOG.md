@@ -451,3 +451,7 @@ All notable changes are documented here.
 - fix: fix stop-loss trigger for short positions
 
 
+### 2022-12-08
+- perf: vectorise momentum score computation with numpy
+
+
