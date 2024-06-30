@@ -455,3 +455,7 @@ All notable changes are documented here.
 - perf: vectorise momentum score computation with numpy
 
 
+### 2022-12-14
+- fix: resolve IV solver divergence for deep ITM options
+
+
