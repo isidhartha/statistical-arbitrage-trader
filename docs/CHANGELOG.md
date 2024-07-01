@@ -459,3 +459,7 @@ All notable changes are documented here.
 - fix: resolve IV solver divergence for deep ITM options
 
 
+### 2022-12-17
+- fix: fix stop-loss trigger for short positions
+
+
