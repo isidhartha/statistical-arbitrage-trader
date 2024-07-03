@@ -463,3 +463,7 @@ All notable changes are documented here.
 - fix: fix stop-loss trigger for short positions
 
 
+### 2022-12-20
+- docs: update setup instructions for scipy dependency
+
+
