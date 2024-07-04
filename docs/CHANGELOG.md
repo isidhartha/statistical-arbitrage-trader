@@ -467,3 +467,7 @@ All notable changes are documented here.
 - docs: update setup instructions for scipy dependency
 
 
+### 2022-12-23
+- fix: correct cointegration p-value threshold comparison
+
+
