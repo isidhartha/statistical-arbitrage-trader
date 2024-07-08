@@ -475,3 +475,7 @@ All notable changes are documented here.
 - feat: implement Newton-Raphson implied volatility solver
 
 
+### 2022-12-31
+- feat: implement option sensitivity sweep over spot range
+
+
