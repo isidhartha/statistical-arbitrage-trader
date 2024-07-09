@@ -479,3 +479,7 @@ All notable changes are documented here.
 - feat: implement option sensitivity sweep over spot range
 
 
+### 2023-01-02
+- refactor: extract plot configuration to named constants
+
+
