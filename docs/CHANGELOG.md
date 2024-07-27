@@ -483,3 +483,7 @@ All notable changes are documented here.
 - refactor: extract plot configuration to named constants
 
 
+### 2023-01-06
+- docs: document cointegration theory in architecture.md
+
+
