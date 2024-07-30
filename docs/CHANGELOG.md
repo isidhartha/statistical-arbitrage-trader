@@ -487,3 +487,7 @@ All notable changes are documented here.
 - docs: document cointegration theory in architecture.md
 
 
+### 2023-01-09
+- feat: implement long-short portfolio construction from rankings
+
+
