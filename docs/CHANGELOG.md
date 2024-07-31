@@ -491,3 +491,7 @@ All notable changes are documented here.
 - feat: implement long-short portfolio construction from rankings
 
 
+### 2023-01-10
+- fix: resolve IV solver divergence for deep ITM options
+
+
