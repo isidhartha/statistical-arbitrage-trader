@@ -495,3 +495,7 @@ All notable changes are documented here.
 - fix: resolve IV solver divergence for deep ITM options
 
 
+### 2023-01-17
+- fix: correct sign convention for short leg PnL
+
+
