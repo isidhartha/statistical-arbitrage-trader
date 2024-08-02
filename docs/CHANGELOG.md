@@ -499,3 +499,7 @@ All notable changes are documented here.
 - fix: correct sign convention for short leg PnL
 
 
+### 2023-01-23
+- feat: implement OptionParams dataclass for clean pricing API
+
+
