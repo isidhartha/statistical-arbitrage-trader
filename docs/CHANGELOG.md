@@ -503,3 +503,7 @@ All notable changes are documented here.
 - feat: implement OptionParams dataclass for clean pricing API
 
 
+### 2023-01-24
+- fix: correct theta formula for European put options
+
+
