@@ -507,3 +507,7 @@ All notable changes are documented here.
 - fix: correct theta formula for European put options
 
 
+### 2023-01-25
+- fix: resolve matplotlib backend error on headless systems
+
+
