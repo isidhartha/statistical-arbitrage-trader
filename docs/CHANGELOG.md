@@ -511,3 +511,7 @@ All notable changes are documented here.
 - fix: resolve matplotlib backend error on headless systems
 
 
+### 2023-01-29
+- feat: implement synthetic cointegrated price data generator
+
+
