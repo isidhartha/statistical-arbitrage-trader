@@ -515,3 +515,7 @@ All notable changes are documented here.
 - feat: implement synthetic cointegrated price data generator
 
 
+### 2023-02-07
+- feat: add long-only mode disabling short portfolio leg
+
+
