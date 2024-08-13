@@ -519,3 +519,7 @@ All notable changes are documented here.
 - feat: add long-only mode disabling short portfolio leg
 
 
+### 2023-02-08
+- test: verify put-call parity holds for sampled params
+
+
