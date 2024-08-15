@@ -527,3 +527,7 @@ All notable changes are documented here.
 - style: normalise import ordering with isort
 
 
+### 2023-02-13
+- fix: correct theta formula for European put options
+
+
