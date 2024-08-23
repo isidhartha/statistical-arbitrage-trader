@@ -535,3 +535,7 @@ All notable changes are documented here.
 - fix: handle zero vega edge case in Newton-Raphson loop
 
 
+### 2023-02-14
+- docs: add Newton-Raphson convergence notes to API.md
+
+
