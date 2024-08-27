@@ -543,3 +543,7 @@ All notable changes are documented here.
 - feat: add equity curve export as PNG chart
 
 
+### 2023-02-26
+- feat: add long-only mode disabling short portfolio leg
+
+
