@@ -547,3 +547,7 @@ All notable changes are documented here.
 - feat: add long-only mode disabling short portfolio leg
 
 
+### 2023-03-11
+- fix: correct cointegration p-value threshold comparison
+
+
