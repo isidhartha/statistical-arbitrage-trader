@@ -551,3 +551,7 @@ All notable changes are documented here.
 - fix: correct cointegration p-value threshold comparison
 
 
+### 2023-03-15
+- fix: correct annualisation factor for different frequencies
+
+
