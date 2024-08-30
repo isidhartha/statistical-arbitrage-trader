@@ -555,3 +555,7 @@ All notable changes are documented here.
 - fix: correct annualisation factor for different frequencies
 
 
+### 2023-03-27
+- fix: fix stop-loss trigger for short positions
+
+
