@@ -559,3 +559,7 @@ All notable changes are documented here.
 - fix: fix stop-loss trigger for short positions
 
 
+### 2023-03-29
+- feat: add entry exit and stop-loss threshold configuration
+
+
