@@ -563,3 +563,7 @@ All notable changes are documented here.
 - feat: add entry exit and stop-loss threshold configuration
 
 
+### 2023-04-01
+- chore: add pre-commit config for black and ruff
+
+
