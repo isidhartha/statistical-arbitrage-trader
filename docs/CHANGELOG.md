@@ -567,3 +567,7 @@ All notable changes are documented here.
 - chore: add pre-commit config for black and ruff
 
 
+### 2023-04-04
+- fix: handle single-asset portfolio in ranking step
+
+
