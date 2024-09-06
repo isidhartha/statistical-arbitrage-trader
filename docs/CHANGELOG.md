@@ -571,3 +571,7 @@ All notable changes are documented here.
 - fix: handle single-asset portfolio in ranking step
 
 
+### 2023-04-09
+- feat: implement Engle-Granger cointegration test screening
+
+
