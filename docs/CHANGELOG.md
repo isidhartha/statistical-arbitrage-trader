@@ -579,3 +579,7 @@ All notable changes are documented here.
 - refactor: extract d1 d2 computation into shared helper
 
 
+### 2023-04-12
+- fix: correct transaction cost application per portfolio leg
+
+
