@@ -591,3 +591,7 @@ All notable changes are documented here.
 - feat: implement cross-sectional momentum signal computation
 
 
+### 2023-04-17
+- docs: document all BacktestConfig parameters in README
+
+
