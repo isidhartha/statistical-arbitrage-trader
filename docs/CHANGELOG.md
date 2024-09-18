@@ -595,3 +595,7 @@ All notable changes are documented here.
 - docs: document all BacktestConfig parameters in README
 
 
+### 2023-04-17
+- feat: implement OptionParams dataclass for clean pricing API
+
+
