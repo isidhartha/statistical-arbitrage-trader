@@ -599,3 +599,7 @@ All notable changes are documented here.
 - feat: implement OptionParams dataclass for clean pricing API
 
 
+### 2023-04-18
+- feat: implement maximum drawdown calculation from equity curve
+
+
