@@ -603,3 +603,7 @@ All notable changes are documented here.
 - feat: implement maximum drawdown calculation from equity curve
 
 
+### 2023-04-21
+- chore: pin scipy to 1.11 for norm API compatibility
+
+
