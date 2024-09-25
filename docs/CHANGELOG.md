@@ -607,3 +607,7 @@ All notable changes are documented here.
 - chore: pin scipy to 1.11 for norm API compatibility
 
 
+### 2023-04-29
+- fix: handle sigma approaching zero in Black-Scholes formula
+
+
