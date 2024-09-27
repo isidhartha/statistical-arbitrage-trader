@@ -615,3 +615,7 @@ All notable changes are documented here.
 - feat: implement Engle-Granger cointegration test screening
 
 
+### 2023-05-04
+- refactor: consolidate performance stats into compute_stats
+
+
