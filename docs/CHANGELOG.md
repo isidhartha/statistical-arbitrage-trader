@@ -619,3 +619,7 @@ All notable changes are documented here.
 - refactor: consolidate performance stats into compute_stats
 
 
+### 2023-05-12
+- fix: handle zero vega edge case in Newton-Raphson loop
+
+
