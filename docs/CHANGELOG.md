@@ -623,3 +623,7 @@ All notable changes are documented here.
 - fix: handle zero vega edge case in Newton-Raphson loop
 
 
+### 2023-05-12
+- feat: add entry exit and stop-loss threshold configuration
+
+
