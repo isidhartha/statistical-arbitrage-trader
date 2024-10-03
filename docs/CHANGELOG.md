@@ -627,3 +627,7 @@ All notable changes are documented here.
 - feat: add entry exit and stop-loss threshold configuration
 
 
+### 2023-05-17
+- fix: handle single-asset portfolio in ranking step
+
+
