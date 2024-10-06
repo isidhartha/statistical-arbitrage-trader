@@ -631,3 +631,7 @@ All notable changes are documented here.
 - fix: handle single-asset portfolio in ranking step
 
 
+### 2023-05-18
+- perf: cache rolling mean and std to avoid recomputation
+
+
