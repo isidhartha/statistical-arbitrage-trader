@@ -639,3 +639,7 @@ All notable changes are documented here.
 - chore: add .gitignore entries for PNG output files
 
 
+### 2023-05-31
+- feat: implement synthetic cointegrated price data generator
+
+
