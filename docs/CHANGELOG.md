@@ -643,3 +643,7 @@ All notable changes are documented here.
 - feat: implement synthetic cointegrated price data generator
 
 
+### 2023-06-01
+- fix: handle zero vega edge case in Newton-Raphson loop
+
+
