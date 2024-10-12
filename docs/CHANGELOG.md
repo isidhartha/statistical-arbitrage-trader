@@ -647,3 +647,7 @@ All notable changes are documented here.
 - fix: handle zero vega edge case in Newton-Raphson loop
 
 
+### 2023-06-07
+- feat: implement long-short portfolio construction from rankings
+
+
