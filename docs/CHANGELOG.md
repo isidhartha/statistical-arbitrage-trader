@@ -651,3 +651,7 @@ All notable changes are documented here.
 - feat: implement long-short portfolio construction from rankings
 
 
+### 2023-06-14
+- fix: handle empty returns series in performance stats
+
+
