@@ -655,3 +655,7 @@ All notable changes are documented here.
 - fix: handle empty returns series in performance stats
 
 
+### 2023-06-19
+- feat: add full Greeks calculator delta gamma vega theta rho
+
+
