@@ -659,3 +659,7 @@ All notable changes are documented here.
 - feat: add full Greeks calculator delta gamma vega theta rho
 
 
+### 2023-06-30
+- feat: implement reversal skip window for momentum strategy
+
+
