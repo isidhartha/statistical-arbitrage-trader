@@ -663,3 +663,7 @@ All notable changes are documented here.
 - feat: implement reversal skip window for momentum strategy
 
 
+### 2023-07-02
+- docs: update setup instructions for scipy dependency
+
+
