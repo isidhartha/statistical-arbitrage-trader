@@ -667,3 +667,7 @@ All notable changes are documented here.
 - docs: update setup instructions for scipy dependency
 
 
+### 2023-07-03
+- style: format all files with black
+
+
