@@ -671,3 +671,7 @@ All notable changes are documented here.
 - style: format all files with black
 
 
+### 2023-07-05
+- refactor: move synthetic data generators to data_utils
+
+
