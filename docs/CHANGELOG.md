@@ -675,3 +675,7 @@ All notable changes are documented here.
 - refactor: move synthetic data generators to data_utils
 
 
+### 2023-07-07
+- chore: pin scipy to 1.11 for norm API compatibility
+
+
