@@ -679,3 +679,7 @@ All notable changes are documented here.
 - chore: pin scipy to 1.11 for norm API compatibility
 
 
+### 2023-07-13
+- fix: fix stop-loss trigger for short positions
+
+
