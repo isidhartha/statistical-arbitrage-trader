@@ -683,3 +683,7 @@ All notable changes are documented here.
 - fix: fix stop-loss trigger for short positions
 
 
+### 2023-07-28
+- feat: add equity curve export as PNG chart
+
+
