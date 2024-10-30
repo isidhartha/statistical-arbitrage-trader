@@ -687,3 +687,7 @@ All notable changes are documented here.
 - feat: add equity curve export as PNG chart
 
 
+### 2023-08-01
+- docs: add Newton-Raphson convergence notes to API.md
+
+
