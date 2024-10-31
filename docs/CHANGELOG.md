@@ -691,3 +691,7 @@ All notable changes are documented here.
 - docs: add Newton-Raphson convergence notes to API.md
 
 
+### 2023-08-04
+- chore: update requirements.txt with pinned versions
+
+
