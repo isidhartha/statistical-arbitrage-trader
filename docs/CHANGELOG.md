@@ -695,3 +695,7 @@ All notable changes are documented here.
 - chore: update requirements.txt with pinned versions
 
 
+### 2023-08-04
+- perf: vectorise momentum score computation with numpy
+
+
