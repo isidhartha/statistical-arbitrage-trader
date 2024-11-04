@@ -699,3 +699,7 @@ All notable changes are documented here.
 - perf: vectorise momentum score computation with numpy
 
 
+### 2023-08-07
+- feat: implement ADF stationarity test on spread series
+
+
