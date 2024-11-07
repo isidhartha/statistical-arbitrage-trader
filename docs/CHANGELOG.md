@@ -707,3 +707,7 @@ All notable changes are documented here.
 - refactor: rename position variable for clarity in backtest
 
 
+### 2023-08-27
+- perf: cache rolling mean and std to avoid recomputation
+
+
