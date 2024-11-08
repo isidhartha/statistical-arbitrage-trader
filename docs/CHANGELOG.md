@@ -711,3 +711,7 @@ All notable changes are documented here.
 - perf: cache rolling mean and std to avoid recomputation
 
 
+### 2023-08-28
+- chore: add .gitignore entries for PNG output files
+
+
