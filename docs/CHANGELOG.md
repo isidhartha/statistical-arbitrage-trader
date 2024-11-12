@@ -715,3 +715,7 @@ All notable changes are documented here.
 - chore: add .gitignore entries for PNG output files
 
 
+### 2023-08-28
+- chore: update requirements.txt with pinned versions
+
+
