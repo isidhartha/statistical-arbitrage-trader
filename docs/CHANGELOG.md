@@ -719,3 +719,7 @@ All notable changes are documented here.
 - chore: update requirements.txt with pinned versions
 
 
+### 2023-09-09
+- fix: resolve IV solver divergence for deep ITM options
+
+
