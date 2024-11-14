@@ -723,3 +723,7 @@ All notable changes are documented here.
 - fix: resolve IV solver divergence for deep ITM options
 
 
+### 2023-09-10
+- feat: add OLS hedge ratio estimation for spread construction
+
+
