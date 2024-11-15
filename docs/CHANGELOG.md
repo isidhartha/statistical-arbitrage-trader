@@ -727,3 +727,7 @@ All notable changes are documented here.
 - feat: add OLS hedge ratio estimation for spread construction
 
 
+### 2023-10-01
+- chore: update requirements.txt with pinned versions
+
+
