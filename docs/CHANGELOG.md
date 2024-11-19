@@ -731,3 +731,7 @@ All notable changes are documented here.
 - chore: update requirements.txt with pinned versions
 
 
+### 2023-10-09
+- refactor: split large backtest loop into focused helpers
+
+
