@@ -735,3 +735,7 @@ All notable changes are documented here.
 - refactor: split large backtest loop into focused helpers
 
 
+### 2023-10-10
+- feat: add transaction cost modelling in basis points
+
+
