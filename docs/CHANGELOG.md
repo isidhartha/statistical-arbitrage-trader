@@ -739,3 +739,7 @@ All notable changes are documented here.
 - feat: add transaction cost modelling in basis points
 
 
+### 2023-10-19
+- test: add cointegration screening test with synthetic data
+
+
