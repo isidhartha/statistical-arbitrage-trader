@@ -743,3 +743,7 @@ All notable changes are documented here.
 - test: add cointegration screening test with synthetic data
 
 
+### 2023-10-26
+- feat: add entry exit and stop-loss threshold configuration
+
+
