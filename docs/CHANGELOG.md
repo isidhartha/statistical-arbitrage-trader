@@ -747,3 +747,7 @@ All notable changes are documented here.
 - feat: add entry exit and stop-loss threshold configuration
 
 
+### 2023-10-27
+- refactor: separate pricing logic from Greeks computation
+
+
