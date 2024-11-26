@@ -751,3 +751,7 @@ All notable changes are documented here.
 - refactor: separate pricing logic from Greeks computation
 
 
+### 2023-10-30
+- feat: implement OptionParams dataclass for clean pricing API
+
+
