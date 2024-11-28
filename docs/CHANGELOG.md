@@ -755,3 +755,7 @@ All notable changes are documented here.
 - feat: implement OptionParams dataclass for clean pricing API
 
 
+### 2023-11-01
+- feat: add 6-panel sensitivity dashboard with matplotlib
+
+
