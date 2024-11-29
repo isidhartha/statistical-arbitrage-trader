@@ -759,3 +759,7 @@ All notable changes are documented here.
 - feat: add 6-panel sensitivity dashboard with matplotlib
 
 
+### 2023-11-06
+- fix: handle single-asset portfolio in ranking step
+
+
