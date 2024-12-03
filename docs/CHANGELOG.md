@@ -767,3 +767,7 @@ All notable changes are documented here.
 - feat: add OLS hedge ratio estimation for spread construction
 
 
+### 2023-11-27
+- fix: fix momentum score when lookback exceeds available data
+
+
