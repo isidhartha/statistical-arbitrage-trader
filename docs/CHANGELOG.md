@@ -771,3 +771,7 @@ All notable changes are documented here.
 - fix: fix momentum score when lookback exceeds available data
 
 
+### 2023-12-01
+- test: add IV solver convergence test for ATM option
+
+
