@@ -775,3 +775,7 @@ All notable changes are documented here.
 - test: add IV solver convergence test for ATM option
 
 
+### 2023-12-06
+- test: add unit tests for Black-Scholes call price
+
+
