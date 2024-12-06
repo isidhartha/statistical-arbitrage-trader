@@ -779,3 +779,7 @@ All notable changes are documented here.
 - test: add unit tests for Black-Scholes call price
 
 
+### 2023-12-09
+- test: add ADF stationarity test on synthetic spread
+
+
