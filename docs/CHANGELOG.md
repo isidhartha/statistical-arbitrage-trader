@@ -783,3 +783,7 @@ All notable changes are documented here.
 - test: add ADF stationarity test on synthetic spread
 
 
+### 2023-12-11
+- fix: fix stop-loss trigger for short positions
+
+
