@@ -787,3 +787,7 @@ All notable changes are documented here.
 - fix: fix stop-loss trigger for short positions
 
 
+### 2023-12-14
+- feat: implement ADF stationarity test on spread series
+
+
