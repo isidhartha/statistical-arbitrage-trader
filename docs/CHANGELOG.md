@@ -791,3 +791,7 @@ All notable changes are documented here.
 - feat: implement ADF stationarity test on spread series
 
 
+### 2023-12-14
+- fix: correct annualisation factor for different frequencies
+
+
