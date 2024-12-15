@@ -795,3 +795,7 @@ All notable changes are documented here.
 - fix: correct annualisation factor for different frequencies
 
 
+### 2023-12-18
+- fix: handle sigma approaching zero in Black-Scholes formula
+
+
