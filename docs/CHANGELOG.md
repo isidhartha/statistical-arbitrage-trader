@@ -799,3 +799,7 @@ All notable changes are documented here.
 - fix: handle sigma approaching zero in Black-Scholes formula
 
 
+### 2023-12-22
+- feat: implement Engle-Granger cointegration test screening
+
+
