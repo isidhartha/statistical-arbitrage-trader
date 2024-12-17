@@ -803,3 +803,7 @@ All notable changes are documented here.
 - feat: implement Engle-Granger cointegration test screening
 
 
+### 2023-12-27
+- docs: update setup instructions for scipy dependency
+
+
