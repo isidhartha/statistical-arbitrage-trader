@@ -807,3 +807,7 @@ All notable changes are documented here.
 - docs: update setup instructions for scipy dependency
 
 
+### 2023-12-28
+- feat: add entry exit and stop-loss threshold configuration
+
+
