@@ -815,3 +815,7 @@ All notable changes are documented here.
 - docs: document all BacktestConfig parameters in README
 
 
+### 2023-12-30
+- perf: reduce memory allocation in simulation loop
+
+
