@@ -819,3 +819,7 @@ All notable changes are documented here.
 - perf: reduce memory allocation in simulation loop
 
 
+### 2024-01-01
+- feat: add annualised CAGR and Sharpe ratio computation
+
+
