@@ -823,3 +823,7 @@ All notable changes are documented here.
 - feat: add annualised CAGR and Sharpe ratio computation
 
 
+### 2024-01-01
+- feat: add long-only mode disabling short portfolio leg
+
+
