@@ -831,3 +831,7 @@ All notable changes are documented here.
 - test: add momentum signal computation unit tests
 
 
+### 2024-01-11
+- fix: correct transaction cost application per portfolio leg
+
+
