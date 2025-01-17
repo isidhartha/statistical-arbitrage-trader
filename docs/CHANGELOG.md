@@ -839,3 +839,7 @@ All notable changes are documented here.
 - feat: add 6-panel sensitivity dashboard with matplotlib
 
 
+### 2024-01-18
+- docs: add Newton-Raphson convergence notes to API.md
+
+
