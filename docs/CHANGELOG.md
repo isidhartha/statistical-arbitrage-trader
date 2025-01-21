@@ -847,3 +847,7 @@ All notable changes are documented here.
 - refactor: rename position variable for clarity in backtest
 
 
+### 2024-01-23
+- feat: implement ADF stationarity test on spread series
+
+
