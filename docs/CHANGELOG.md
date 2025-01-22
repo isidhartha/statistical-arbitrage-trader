@@ -851,3 +851,7 @@ All notable changes are documented here.
 - feat: implement ADF stationarity test on spread series
 
 
+### 2024-02-01
+- docs: update setup instructions for scipy dependency
+
+
