@@ -863,3 +863,7 @@ All notable changes are documented here.
 - docs: add momentum signal formula to architecture.md
 
 
+### 2024-02-22
+- docs: update setup instructions for scipy dependency
+
+
