@@ -867,3 +867,7 @@ All notable changes are documented here.
 - docs: update setup instructions for scipy dependency
 
 
+### 2024-02-23
+- fix: correct sign convention for short leg PnL
+
+
