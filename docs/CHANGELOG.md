@@ -871,3 +871,7 @@ All notable changes are documented here.
 - fix: correct sign convention for short leg PnL
 
 
+### 2024-02-23
+- docs: document Greeks interpretation and sign conventions
+
+
