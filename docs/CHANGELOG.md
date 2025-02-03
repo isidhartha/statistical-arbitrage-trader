@@ -879,3 +879,7 @@ All notable changes are documented here.
 - style: normalise import ordering with isort
 
 
+### 2024-03-08
+- fix: handle empty returns series in performance stats
+
+
