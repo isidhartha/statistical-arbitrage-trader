@@ -883,3 +883,7 @@ All notable changes are documented here.
 - fix: handle empty returns series in performance stats
 
 
+### 2024-03-11
+- feat: add transaction cost modelling in basis points
+
+
