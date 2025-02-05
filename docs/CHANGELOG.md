@@ -887,3 +887,7 @@ All notable changes are documented here.
 - feat: add transaction cost modelling in basis points
 
 
+### 2024-03-13
+- feat: implement rolling Z-score signal for mean-reversion
+
+
