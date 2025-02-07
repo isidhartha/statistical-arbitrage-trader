@@ -891,3 +891,7 @@ All notable changes are documented here.
 - feat: implement rolling Z-score signal for mean-reversion
 
 
+### 2024-03-17
+- fix: resolve IV solver divergence for deep ITM options
+
+
