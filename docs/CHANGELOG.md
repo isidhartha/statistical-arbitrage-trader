@@ -899,3 +899,7 @@ All notable changes are documented here.
 - perf: vectorise momentum score computation with numpy
 
 
+### 2024-03-24
+- feat: implement option sensitivity sweep over spot range
+
+
