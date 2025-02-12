@@ -903,3 +903,7 @@ All notable changes are documented here.
 - feat: implement option sensitivity sweep over spot range
 
 
+### 2024-03-27
+- fix: resolve IV solver divergence for deep ITM options
+
+
