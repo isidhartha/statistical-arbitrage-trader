@@ -907,3 +907,7 @@ All notable changes are documented here.
 - fix: resolve IV solver divergence for deep ITM options
 
 
+### 2024-03-27
+- fix: fix momentum score when lookback exceeds available data
+
+
