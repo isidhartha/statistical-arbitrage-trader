@@ -911,3 +911,7 @@ All notable changes are documented here.
 - fix: fix momentum score when lookback exceeds available data
 
 
+### 2024-03-28
+- perf: reduce memory allocation in simulation loop
+
+
