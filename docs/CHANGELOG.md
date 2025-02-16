@@ -915,3 +915,7 @@ All notable changes are documented here.
 - perf: reduce memory allocation in simulation loop
 
 
+### 2024-04-01
+- feat: add PairsConfig dataclass for pairs trading settings
+
+
