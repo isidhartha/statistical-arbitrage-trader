@@ -919,3 +919,7 @@ All notable changes are documented here.
 - feat: add PairsConfig dataclass for pairs trading settings
 
 
+### 2024-04-03
+- feat: implement rolling Z-score signal for mean-reversion
+
+
