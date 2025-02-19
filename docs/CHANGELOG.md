@@ -923,3 +923,7 @@ All notable changes are documented here.
 - feat: implement rolling Z-score signal for mean-reversion
 
 
+### 2024-04-10
+- fix: correct cointegration p-value threshold comparison
+
+
