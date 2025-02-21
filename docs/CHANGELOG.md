@@ -927,3 +927,7 @@ All notable changes are documented here.
 - fix: correct cointegration p-value threshold comparison
 
 
+### 2024-04-10
+- fix: resolve matplotlib backend error on headless systems
+
+
