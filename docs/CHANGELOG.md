@@ -931,3 +931,7 @@ All notable changes are documented here.
 - fix: resolve matplotlib backend error on headless systems
 
 
+### 2024-04-18
+- style: normalise import ordering with isort
+
+
