@@ -935,3 +935,7 @@ All notable changes are documented here.
 - style: normalise import ordering with isort
 
 
+### 2024-04-19
+- fix: correct transaction cost application per portfolio leg
+
+
