@@ -943,3 +943,7 @@ All notable changes are documented here.
 - feat: implement long-short portfolio construction from rankings
 
 
+### 2024-04-20
+- fix: correct transaction cost application per portfolio leg
+
+
