@@ -947,3 +947,7 @@ All notable changes are documented here.
 - fix: correct transaction cost application per portfolio leg
 
 
+### 2024-04-26
+- test: add cointegration screening test with synthetic data
+
+
