@@ -951,3 +951,7 @@ All notable changes are documented here.
 - test: add cointegration screening test with synthetic data
 
 
+### 2024-05-01
+- fix: fix momentum score when lookback exceeds available data
+
+
