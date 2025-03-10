@@ -955,3 +955,7 @@ All notable changes are documented here.
 - fix: fix momentum score when lookback exceeds available data
 
 
+### 2024-05-06
+- fix: fix max drawdown calculation at series start
+
+
