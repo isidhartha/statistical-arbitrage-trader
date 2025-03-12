@@ -959,3 +959,7 @@ All notable changes are documented here.
 - fix: fix max drawdown calculation at series start
 
 
+### 2024-05-07
+- feat: add configurable lookback and holding period windows
+
+
