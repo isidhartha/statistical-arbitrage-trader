@@ -963,3 +963,7 @@ All notable changes are documented here.
 - feat: add configurable lookback and holding period windows
 
 
+### 2024-05-07
+- fix: correct theta formula for European put options
+
+
