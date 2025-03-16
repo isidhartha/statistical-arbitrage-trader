@@ -967,3 +967,7 @@ All notable changes are documented here.
 - fix: correct theta formula for European put options
 
 
+### 2024-05-13
+- fix: fix stop-loss trigger for short positions
+
+
