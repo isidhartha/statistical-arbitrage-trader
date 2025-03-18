@@ -971,3 +971,7 @@ All notable changes are documented here.
 - fix: fix stop-loss trigger for short positions
 
 
+### 2024-05-16
+- feat: implement option sensitivity sweep over spot range
+
+
