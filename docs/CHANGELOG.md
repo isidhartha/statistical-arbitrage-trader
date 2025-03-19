@@ -975,3 +975,7 @@ All notable changes are documented here.
 - feat: implement option sensitivity sweep over spot range
 
 
+### 2024-05-22
+- fix: correct transaction cost application per portfolio leg
+
+
