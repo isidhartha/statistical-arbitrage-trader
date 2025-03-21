@@ -979,3 +979,7 @@ All notable changes are documented here.
 - fix: correct transaction cost application per portfolio leg
 
 
+### 2024-05-23
+- feat: add annualised CAGR and Sharpe ratio computation
+
+
