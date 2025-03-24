@@ -983,3 +983,7 @@ All notable changes are documented here.
 - feat: add annualised CAGR and Sharpe ratio computation
 
 
+### 2024-05-23
+- perf: vectorise momentum score computation with numpy
+
+
