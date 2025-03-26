@@ -987,3 +987,7 @@ All notable changes are documented here.
 - perf: vectorise momentum score computation with numpy
 
 
+### 2024-05-30
+- fix: correct annualisation factor for different frequencies
+
+
