@@ -991,3 +991,7 @@ All notable changes are documented here.
 - fix: correct annualisation factor for different frequencies
 
 
+### 2024-06-07
+- feat: add transaction cost modelling in basis points
+
+
