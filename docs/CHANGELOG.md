@@ -995,3 +995,7 @@ All notable changes are documented here.
 - feat: add transaction cost modelling in basis points
 
 
+### 2024-06-09
+- feat: implement cross-sectional momentum signal computation
+
+
