@@ -999,3 +999,7 @@ All notable changes are documented here.
 - feat: implement cross-sectional momentum signal computation
 
 
+### 2024-06-10
+- chore: pin scipy to 1.11 for norm API compatibility
+
+
