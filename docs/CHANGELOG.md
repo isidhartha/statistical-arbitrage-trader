@@ -1003,3 +1003,7 @@ All notable changes are documented here.
 - chore: pin scipy to 1.11 for norm API compatibility
 
 
+### 2024-06-12
+- fix: correct sign convention for short leg PnL
+
+
