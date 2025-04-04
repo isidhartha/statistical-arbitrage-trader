@@ -1007,3 +1007,7 @@ All notable changes are documented here.
 - fix: correct sign convention for short leg PnL
 
 
+### 2024-06-13
+- fix: fix stop-loss trigger for short positions
+
+
