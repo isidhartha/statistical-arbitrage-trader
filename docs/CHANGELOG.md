@@ -1011,3 +1011,7 @@ All notable changes are documented here.
 - fix: fix stop-loss trigger for short positions
 
 
+### 2024-06-13
+- feat: add configurable lookback and holding period windows
+
+
