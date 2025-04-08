@@ -1015,3 +1015,7 @@ All notable changes are documented here.
 - feat: add configurable lookback and holding period windows
 
 
+### 2024-06-16
+- fix: handle identical assets in cointegration screener
+
+
