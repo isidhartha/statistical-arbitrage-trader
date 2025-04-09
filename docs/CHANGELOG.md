@@ -1019,3 +1019,7 @@ All notable changes are documented here.
 - fix: handle identical assets in cointegration screener
 
 
+### 2024-06-23
+- test: add ADF stationarity test on synthetic spread
+
+
