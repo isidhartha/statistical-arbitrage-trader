@@ -1023,3 +1023,7 @@ All notable changes are documented here.
 - test: add ADF stationarity test on synthetic spread
 
 
+### 2024-06-30
+- fix: resolve NaN spread values at start of rolling window
+
+
