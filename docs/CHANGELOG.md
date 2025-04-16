@@ -1035,3 +1035,7 @@ All notable changes are documented here.
 - refactor: consolidate performance stats into compute_stats
 
 
+### 2024-07-05
+- fix: handle single-asset portfolio in ranking step
+
+
