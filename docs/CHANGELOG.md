@@ -1039,3 +1039,7 @@ All notable changes are documented here.
 - fix: handle single-asset portfolio in ranking step
 
 
+### 2024-07-06
+- fix: fix max drawdown calculation at series start
+
+
