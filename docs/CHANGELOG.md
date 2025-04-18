@@ -1043,3 +1043,7 @@ All notable changes are documented here.
 - fix: fix max drawdown calculation at series start
 
 
+### 2024-07-12
+- docs: add example usage for implied volatility solver
+
+
