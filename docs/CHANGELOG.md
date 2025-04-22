@@ -1047,3 +1047,7 @@ All notable changes are documented here.
 - docs: add example usage for implied volatility solver
 
 
+### 2024-07-16
+- fix: correct theta formula for European put options
+
+
