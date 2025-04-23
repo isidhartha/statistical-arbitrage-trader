@@ -1051,3 +1051,7 @@ All notable changes are documented here.
 - fix: correct theta formula for European put options
 
 
+### 2024-07-19
+- test: add regression tests for all five Greeks
+
+
