@@ -1055,3 +1055,7 @@ All notable changes are documented here.
 - test: add regression tests for all five Greeks
 
 
+### 2024-07-19
+- refactor: consolidate performance stats into compute_stats
+
+
