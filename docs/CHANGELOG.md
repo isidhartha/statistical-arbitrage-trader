@@ -1059,3 +1059,7 @@ All notable changes are documented here.
 - refactor: consolidate performance stats into compute_stats
 
 
+### 2024-07-22
+- docs: update setup instructions for scipy dependency
+
+
