@@ -1063,3 +1063,7 @@ All notable changes are documented here.
 - docs: update setup instructions for scipy dependency
 
 
+### 2024-08-01
+- test: add ADF stationarity test on synthetic spread
+
+
