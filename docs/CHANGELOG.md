@@ -1067,3 +1067,7 @@ All notable changes are documented here.
 - test: add ADF stationarity test on synthetic spread
 
 
+### 2024-08-02
+- refactor: move synthetic data generators to data_utils
+
+
