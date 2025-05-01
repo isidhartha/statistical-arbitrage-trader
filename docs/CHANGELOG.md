@@ -1071,3 +1071,7 @@ All notable changes are documented here.
 - refactor: move synthetic data generators to data_utils
 
 
+### 2024-08-04
+- fix: correct sign convention for short leg PnL
+
+
