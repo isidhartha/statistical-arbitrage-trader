@@ -1075,3 +1075,7 @@ All notable changes are documented here.
 - fix: correct sign convention for short leg PnL
 
 
+### 2024-08-05
+- feat: add long-only mode disabling short portfolio leg
+
+
