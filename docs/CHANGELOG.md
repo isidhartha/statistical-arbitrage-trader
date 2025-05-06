@@ -1083,3 +1083,7 @@ All notable changes are documented here.
 - fix: correct cointegration p-value threshold comparison
 
 
+### 2024-08-07
+- fix: handle identical assets in cointegration screener
+
+
