@@ -1087,3 +1087,7 @@ All notable changes are documented here.
 - fix: handle identical assets in cointegration screener
 
 
+### 2024-08-13
+- style: fix ruff lint violations across modules
+
+
