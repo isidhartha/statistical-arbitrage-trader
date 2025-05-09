@@ -1091,3 +1091,7 @@ All notable changes are documented here.
 - style: fix ruff lint violations across modules
 
 
+### 2024-08-14
+- fix: correct theta formula for European put options
+
+
