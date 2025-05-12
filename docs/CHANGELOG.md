@@ -1095,3 +1095,7 @@ All notable changes are documented here.
 - fix: correct theta formula for European put options
 
 
+### 2024-08-21
+- chore: add pre-commit config for black and ruff
+
+
