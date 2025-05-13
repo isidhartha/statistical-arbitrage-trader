@@ -1099,3 +1099,7 @@ All notable changes are documented here.
 - chore: add pre-commit config for black and ruff
 
 
+### 2024-08-28
+- docs: add example usage for implied volatility solver
+
+
