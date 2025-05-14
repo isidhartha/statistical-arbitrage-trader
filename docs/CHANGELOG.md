@@ -1103,3 +1103,7 @@ All notable changes are documented here.
 - docs: add example usage for implied volatility solver
 
 
+### 2024-09-11
+- test: verify put-call parity holds for sampled params
+
+
