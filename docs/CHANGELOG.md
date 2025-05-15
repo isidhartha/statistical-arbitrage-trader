@@ -1107,3 +1107,7 @@ All notable changes are documented here.
 - test: verify put-call parity holds for sampled params
 
 
+### 2024-09-14
+- fix: handle single-asset portfolio in ranking step
+
+
