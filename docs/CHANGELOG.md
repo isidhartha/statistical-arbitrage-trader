@@ -1111,3 +1111,7 @@ All notable changes are documented here.
 - fix: handle single-asset portfolio in ranking step
 
 
+### 2024-09-22
+- fix: handle sigma approaching zero in Black-Scholes formula
+
+
