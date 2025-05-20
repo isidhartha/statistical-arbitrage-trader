@@ -1115,3 +1115,7 @@ All notable changes are documented here.
 - fix: handle sigma approaching zero in Black-Scholes formula
 
 
+### 2024-09-23
+- refactor: consolidate performance stats into compute_stats
+
+
