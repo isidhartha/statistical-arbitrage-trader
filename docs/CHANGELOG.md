@@ -1119,3 +1119,7 @@ All notable changes are documented here.
 - refactor: consolidate performance stats into compute_stats
 
 
+### 2024-09-28
+- feat: add equity curve export as PNG chart
+
+
