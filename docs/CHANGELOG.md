@@ -1127,3 +1127,7 @@ All notable changes are documented here.
 - feat: implement option sensitivity sweep over spot range
 
 
+### 2024-10-02
+- fix: resolve NaN spread values at start of rolling window
+
+
