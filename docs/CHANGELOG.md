@@ -1131,3 +1131,7 @@ All notable changes are documented here.
 - fix: resolve NaN spread values at start of rolling window
 
 
+### 2024-10-04
+- refactor: move synthetic data generators to data_utils
+
+
