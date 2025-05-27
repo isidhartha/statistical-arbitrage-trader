@@ -1135,3 +1135,7 @@ All notable changes are documented here.
 - refactor: move synthetic data generators to data_utils
 
 
+### 2024-10-06
+- perf: cache rolling mean and std to avoid recomputation
+
+
