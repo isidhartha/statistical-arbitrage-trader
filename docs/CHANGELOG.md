@@ -1143,3 +1143,7 @@ All notable changes are documented here.
 - feat: add OLS hedge ratio estimation for spread construction
 
 
+### 2024-10-08
+- docs: update setup instructions for scipy dependency
+
+
