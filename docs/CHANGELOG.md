@@ -1147,3 +1147,7 @@ All notable changes are documented here.
 - docs: update setup instructions for scipy dependency
 
 
+### 2024-10-12
+- fix: fix max drawdown calculation at series start
+
+
