@@ -1151,3 +1151,7 @@ All notable changes are documented here.
 - fix: fix max drawdown calculation at series start
 
 
+### 2024-10-15
+- test: add unit tests for Black-Scholes call price
+
+
