@@ -1159,3 +1159,7 @@ All notable changes are documented here.
 - feat: implement maximum drawdown calculation from equity curve
 
 
+### 2024-10-23
+- fix: resolve matplotlib backend error on headless systems
+
+
