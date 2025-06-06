@@ -1163,3 +1163,7 @@ All notable changes are documented here.
 - fix: resolve matplotlib backend error on headless systems
 
 
+### 2024-10-24
+- test: add IV solver convergence test for ATM option
+
+
