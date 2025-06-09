@@ -1167,3 +1167,7 @@ All notable changes are documented here.
 - test: add IV solver convergence test for ATM option
 
 
+### 2024-10-26
+- refactor: extract d1 d2 computation into shared helper
+
+
