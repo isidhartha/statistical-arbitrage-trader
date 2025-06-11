@@ -1171,3 +1171,7 @@ All notable changes are documented here.
 - refactor: extract d1 d2 computation into shared helper
 
 
+### 2024-10-31
+- fix: resolve IV solver divergence for deep ITM options
+
+
