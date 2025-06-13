@@ -1179,3 +1179,7 @@ All notable changes are documented here.
 - chore: update requirements.txt with pinned versions
 
 
+### 2024-11-14
+- feat: implement rolling Z-score signal for mean-reversion
+
+
