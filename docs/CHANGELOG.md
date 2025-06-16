@@ -1183,3 +1183,7 @@ All notable changes are documented here.
 - feat: implement rolling Z-score signal for mean-reversion
 
 
+### 2024-11-22
+- fix: resolve NaN spread values at start of rolling window
+
+
