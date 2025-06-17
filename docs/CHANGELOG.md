@@ -1187,3 +1187,7 @@ All notable changes are documented here.
 - fix: resolve NaN spread values at start of rolling window
 
 
+### 2024-11-22
+- feat: implement Newton-Raphson implied volatility solver
+
+
