@@ -1191,3 +1191,7 @@ All notable changes are documented here.
 - feat: implement Newton-Raphson implied volatility solver
 
 
+### 2024-11-26
+- fix: handle empty returns series in performance stats
+
+
