@@ -1195,3 +1195,7 @@ All notable changes are documented here.
 - fix: handle empty returns series in performance stats
 
 
+### 2024-12-02
+- docs: document Greeks interpretation and sign conventions
+
+
