@@ -1199,3 +1199,7 @@ All notable changes are documented here.
 - docs: document Greeks interpretation and sign conventions
 
 
+### 2024-12-03
+- fix: resolve NaN spread values at start of rolling window
+
+
