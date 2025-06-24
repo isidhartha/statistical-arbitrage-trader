@@ -1203,3 +1203,7 @@ All notable changes are documented here.
 - fix: resolve NaN spread values at start of rolling window
 
 
+### 2024-12-11
+- feat: implement long-short portfolio construction from rankings
+
+
