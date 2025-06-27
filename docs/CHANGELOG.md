@@ -1211,3 +1211,7 @@ All notable changes are documented here.
 - feat: add equity curve export as PNG chart
 
 
+### 2024-12-16
+- refactor: move synthetic data generators to data_utils
+
+
