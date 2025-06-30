@@ -1215,3 +1215,7 @@ All notable changes are documented here.
 - refactor: move synthetic data generators to data_utils
 
 
+### 2024-12-18
+- test: add IV solver convergence test for ATM option
+
+
