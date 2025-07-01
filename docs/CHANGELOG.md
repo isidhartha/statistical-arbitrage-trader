@@ -1219,3 +1219,7 @@ All notable changes are documented here.
 - test: add IV solver convergence test for ATM option
 
 
+### 2024-12-19
+- feat: add equity curve export as PNG chart
+
+
