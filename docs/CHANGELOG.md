@@ -1223,3 +1223,7 @@ All notable changes are documented here.
 - feat: add equity curve export as PNG chart
 
 
+### 2025-01-01
+- fix: resolve matplotlib backend error on headless systems
+
+
