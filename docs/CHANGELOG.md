@@ -1227,3 +1227,7 @@ All notable changes are documented here.
 - fix: resolve matplotlib backend error on headless systems
 
 
+### 2025-01-03
+- feat: implement Newton-Raphson implied volatility solver
+
+
