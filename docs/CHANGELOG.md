@@ -1231,3 +1231,7 @@ All notable changes are documented here.
 - feat: implement Newton-Raphson implied volatility solver
 
 
+### 2025-01-06
+- feat: add OLS hedge ratio estimation for spread construction
+
+
