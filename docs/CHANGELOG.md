@@ -1235,3 +1235,7 @@ All notable changes are documented here.
 - feat: add OLS hedge ratio estimation for spread construction
 
 
+### 2025-01-10
+- test: add ADF stationarity test on synthetic spread
+
+
