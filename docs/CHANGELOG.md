@@ -1243,3 +1243,7 @@ All notable changes are documented here.
 - fix: handle identical assets in cointegration screener
 
 
+### 2025-01-20
+- docs: add example usage for implied volatility solver
+
+
