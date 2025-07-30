@@ -1247,3 +1247,7 @@ All notable changes are documented here.
 - docs: add example usage for implied volatility solver
 
 
+### 2025-01-20
+- fix: handle single-asset portfolio in ranking step
+
+
