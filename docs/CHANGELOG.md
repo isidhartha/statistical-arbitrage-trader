@@ -1251,3 +1251,7 @@ All notable changes are documented here.
 - fix: handle single-asset portfolio in ranking step
 
 
+### 2025-01-21
+- feat: add configurable lookback and holding period windows
+
+
