@@ -1255,3 +1255,7 @@ All notable changes are documented here.
 - feat: add configurable lookback and holding period windows
 
 
+### 2025-01-22
+- chore: update requirements.txt with pinned versions
+
+
