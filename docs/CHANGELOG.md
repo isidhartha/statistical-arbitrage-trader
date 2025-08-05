@@ -1259,3 +1259,7 @@ All notable changes are documented here.
 - chore: update requirements.txt with pinned versions
 
 
+### 2025-01-23
+- test: add regression tests for all five Greeks
+
+
