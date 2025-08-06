@@ -1263,3 +1263,7 @@ All notable changes are documented here.
 - test: add regression tests for all five Greeks
 
 
+### 2025-01-25
+- chore: pin scipy to 1.11 for norm API compatibility
+
+
