@@ -1267,3 +1267,7 @@ All notable changes are documented here.
 - chore: pin scipy to 1.11 for norm API compatibility
 
 
+### 2025-01-28
+- style: format all files with black
+
+
