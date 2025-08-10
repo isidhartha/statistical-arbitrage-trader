@@ -1271,3 +1271,7 @@ All notable changes are documented here.
 - style: format all files with black
 
 
+### 2025-01-28
+- fix: handle empty returns series in performance stats
+
+
