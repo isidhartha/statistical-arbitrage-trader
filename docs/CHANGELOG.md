@@ -1275,3 +1275,7 @@ All notable changes are documented here.
 - fix: handle empty returns series in performance stats
 
 
+### 2025-02-09
+- feat: implement rolling Z-score signal for mean-reversion
+
+
