@@ -1279,3 +1279,7 @@ All notable changes are documented here.
 - feat: implement rolling Z-score signal for mean-reversion
 
 
+### 2025-02-11
+- fix: handle sigma approaching zero in Black-Scholes formula
+
+
