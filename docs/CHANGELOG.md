@@ -1283,3 +1283,7 @@ All notable changes are documented here.
 - fix: handle sigma approaching zero in Black-Scholes formula
 
 
+### 2025-02-11
+- test: add ADF stationarity test on synthetic spread
+
+
