@@ -1287,3 +1287,7 @@ All notable changes are documented here.
 - test: add ADF stationarity test on synthetic spread
 
 
+### 2025-02-13
+- feat: add PairsConfig dataclass for pairs trading settings
+
+
