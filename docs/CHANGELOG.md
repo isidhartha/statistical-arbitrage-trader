@@ -1291,3 +1291,7 @@ All notable changes are documented here.
 - feat: add PairsConfig dataclass for pairs trading settings
 
 
+### 2025-02-14
+- fix: fix momentum score when lookback exceeds available data
+
+
