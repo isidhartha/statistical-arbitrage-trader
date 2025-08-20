@@ -1295,3 +1295,7 @@ All notable changes are documented here.
 - fix: fix momentum score when lookback exceeds available data
 
 
+### 2025-02-16
+- refactor: consolidate performance stats into compute_stats
+
+
