@@ -1299,3 +1299,7 @@ All notable changes are documented here.
 - refactor: consolidate performance stats into compute_stats
 
 
+### 2025-02-19
+- fix: correct cointegration p-value threshold comparison
+
+
