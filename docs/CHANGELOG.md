@@ -1303,3 +1303,7 @@ All notable changes are documented here.
 - fix: correct cointegration p-value threshold comparison
 
 
+### 2025-02-19
+- feat: implement OptionParams dataclass for clean pricing API
+
+
