@@ -1307,3 +1307,7 @@ All notable changes are documented here.
 - feat: implement OptionParams dataclass for clean pricing API
 
 
+### 2025-02-27
+- feat: implement Newton-Raphson implied volatility solver
+
+
