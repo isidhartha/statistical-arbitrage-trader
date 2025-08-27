@@ -1311,3 +1311,7 @@ All notable changes are documented here.
 - feat: implement Newton-Raphson implied volatility solver
 
 
+### 2025-03-02
+- fix: handle single-asset portfolio in ranking step
+
+
