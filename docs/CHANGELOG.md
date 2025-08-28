@@ -1315,3 +1315,7 @@ All notable changes are documented here.
 - fix: handle single-asset portfolio in ranking step
 
 
+### 2025-03-02
+- feat: add transaction cost modelling in basis points
+
+
