@@ -1319,3 +1319,7 @@ All notable changes are documented here.
 - feat: add transaction cost modelling in basis points
 
 
+### 2025-03-07
+- feat: implement maximum drawdown calculation from equity curve
+
+
