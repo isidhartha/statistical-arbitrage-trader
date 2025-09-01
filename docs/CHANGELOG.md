@@ -1323,3 +1323,7 @@ All notable changes are documented here.
 - feat: implement maximum drawdown calculation from equity curve
 
 
+### 2025-03-10
+- feat: implement cross-sectional momentum signal computation
+
+
