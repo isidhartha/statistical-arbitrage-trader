@@ -1327,3 +1327,7 @@ All notable changes are documented here.
 - feat: implement cross-sectional momentum signal computation
 
 
+### 2025-03-10
+- feat: implement ADF stationarity test on spread series
+
+
