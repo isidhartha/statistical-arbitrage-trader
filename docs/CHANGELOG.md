@@ -1331,3 +1331,7 @@ All notable changes are documented here.
 - feat: implement ADF stationarity test on spread series
 
 
+### 2025-03-11
+- feat: implement rolling Z-score signal for mean-reversion
+
+
