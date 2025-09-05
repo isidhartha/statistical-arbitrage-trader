@@ -1335,3 +1335,7 @@ All notable changes are documented here.
 - feat: implement rolling Z-score signal for mean-reversion
 
 
+### 2025-03-15
+- chore: update requirements.txt with pinned versions
+
+
