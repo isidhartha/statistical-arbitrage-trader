@@ -1339,3 +1339,7 @@ All notable changes are documented here.
 - chore: update requirements.txt with pinned versions
 
 
+### 2025-03-16
+- fix: resolve NaN spread values at start of rolling window
+
+
