@@ -1343,3 +1343,7 @@ All notable changes are documented here.
 - fix: resolve NaN spread values at start of rolling window
 
 
+### 2025-03-19
+- feat: implement synthetic cointegrated price data generator
+
+
