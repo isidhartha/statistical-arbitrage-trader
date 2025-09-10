@@ -1347,3 +1347,7 @@ All notable changes are documented here.
 - feat: implement synthetic cointegrated price data generator
 
 
+### 2025-03-19
+- refactor: split large backtest loop into focused helpers
+
+
