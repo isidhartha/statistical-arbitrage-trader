@@ -1351,3 +1351,7 @@ All notable changes are documented here.
 - refactor: split large backtest loop into focused helpers
 
 
+### 2025-03-20
+- fix: correct theta formula for European put options
+
+
