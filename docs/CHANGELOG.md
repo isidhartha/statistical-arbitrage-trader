@@ -1355,3 +1355,7 @@ All notable changes are documented here.
 - fix: correct theta formula for European put options
 
 
+### 2025-03-21
+- refactor: rename position variable for clarity in backtest
+
+
