@@ -1363,3 +1363,7 @@ All notable changes are documented here.
 - fix: correct theta formula for European put options
 
 
+### 2025-03-29
+- fix: handle zero vega edge case in Newton-Raphson loop
+
+
