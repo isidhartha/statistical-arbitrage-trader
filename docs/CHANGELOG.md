@@ -1371,3 +1371,7 @@ All notable changes are documented here.
 - chore: add pre-commit config for black and ruff
 
 
+### 2025-03-30
+- fix: correct cointegration p-value threshold comparison
+
+
