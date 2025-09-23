@@ -1375,3 +1375,7 @@ All notable changes are documented here.
 - fix: correct cointegration p-value threshold comparison
 
 
+### 2025-03-31
+- fix: fix momentum score when lookback exceeds available data
+
+
