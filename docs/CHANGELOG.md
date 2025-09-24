@@ -1379,3 +1379,7 @@ All notable changes are documented here.
 - fix: fix momentum score when lookback exceeds available data
 
 
+### 2025-04-10
+- fix: handle single-asset portfolio in ranking step
+
+
