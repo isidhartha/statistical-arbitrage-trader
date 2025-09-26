@@ -1383,3 +1383,7 @@ All notable changes are documented here.
 - fix: handle single-asset portfolio in ranking step
 
 
+### 2025-04-13
+- chore: add .gitignore entries for PNG output files
+
+
