@@ -1387,3 +1387,7 @@ All notable changes are documented here.
 - chore: add .gitignore entries for PNG output files
 
 
+### 2025-04-15
+- docs: document Greeks interpretation and sign conventions
+
+
