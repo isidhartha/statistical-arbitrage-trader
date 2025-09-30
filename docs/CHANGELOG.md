@@ -1391,3 +1391,7 @@ All notable changes are documented here.
 - docs: document Greeks interpretation and sign conventions
 
 
+### 2025-04-16
+- style: fix ruff lint violations across modules
+
+
