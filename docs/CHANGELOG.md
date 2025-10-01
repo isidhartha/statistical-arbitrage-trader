@@ -1395,3 +1395,7 @@ All notable changes are documented here.
 - style: fix ruff lint violations across modules
 
 
+### 2025-04-17
+- feat: implement Black-Scholes pricing for European calls and puts
+
+
