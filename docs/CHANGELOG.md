@@ -1399,3 +1399,7 @@ All notable changes are documented here.
 - feat: implement Black-Scholes pricing for European calls and puts
 
 
+### 2025-04-17
+- docs: add example usage for implied volatility solver
+
+
