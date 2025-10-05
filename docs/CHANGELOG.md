@@ -1403,3 +1403,7 @@ All notable changes are documented here.
 - docs: add example usage for implied volatility solver
 
 
+### 2025-04-21
+- style: format all files with black
+
+
