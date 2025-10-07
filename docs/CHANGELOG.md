@@ -1407,3 +1407,7 @@ All notable changes are documented here.
 - style: format all files with black
 
 
+### 2025-04-22
+- docs: add mathematical derivation notes for Black-Scholes
+
+
