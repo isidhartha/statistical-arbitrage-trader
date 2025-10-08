@@ -1411,3 +1411,7 @@ All notable changes are documented here.
 - docs: add mathematical derivation notes for Black-Scholes
 
 
+### 2025-04-22
+- feat: implement maximum drawdown calculation from equity curve
+
+
