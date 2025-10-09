@@ -1415,3 +1415,7 @@ All notable changes are documented here.
 - feat: implement maximum drawdown calculation from equity curve
 
 
+### 2025-04-23
+- docs: document Greeks interpretation and sign conventions
+
+
