@@ -1419,3 +1419,7 @@ All notable changes are documented here.
 - docs: document Greeks interpretation and sign conventions
 
 
+### 2025-04-24
+- fix: correct theta formula for European put options
+
+
