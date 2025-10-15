@@ -1427,3 +1427,7 @@ All notable changes are documented here.
 - fix: fix max drawdown calculation at series start
 
 
+### 2025-05-09
+- docs: document cointegration theory in architecture.md
+
+
