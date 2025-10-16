@@ -1431,3 +1431,7 @@ All notable changes are documented here.
 - docs: document cointegration theory in architecture.md
 
 
+### 2025-05-13
+- test: add regression tests for all five Greeks
+
+
