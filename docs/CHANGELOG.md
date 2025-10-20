@@ -1439,3 +1439,7 @@ All notable changes are documented here.
 - refactor: consolidate performance stats into compute_stats
 
 
+### 2025-06-05
+- docs: add Newton-Raphson convergence notes to API.md
+
+
