@@ -1443,3 +1443,7 @@ All notable changes are documented here.
 - docs: add Newton-Raphson convergence notes to API.md
 
 
+### 2025-06-10
+- refactor: rename position variable for clarity in backtest
+
+
