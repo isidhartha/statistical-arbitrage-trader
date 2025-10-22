@@ -1447,3 +1447,7 @@ All notable changes are documented here.
 - refactor: rename position variable for clarity in backtest
 
 
+### 2025-06-12
+- refactor: extract d1 d2 computation into shared helper
+
+
