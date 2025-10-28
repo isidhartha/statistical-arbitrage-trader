@@ -1455,3 +1455,7 @@ All notable changes are documented here.
 - perf: cache rolling mean and std to avoid recomputation
 
 
+### 2025-06-20
+- test: add regression tests for all five Greeks
+
+
