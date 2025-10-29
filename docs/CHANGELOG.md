@@ -1459,3 +1459,7 @@ All notable changes are documented here.
 - test: add regression tests for all five Greeks
 
 
+### 2025-06-22
+- fix: resolve IV solver divergence for deep ITM options
+
+
