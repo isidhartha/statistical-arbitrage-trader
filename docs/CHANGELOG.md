@@ -1463,3 +1463,7 @@ All notable changes are documented here.
 - fix: resolve IV solver divergence for deep ITM options
 
 
+### 2025-06-28
+- refactor: rename position variable for clarity in backtest
+
+
