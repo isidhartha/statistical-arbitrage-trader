@@ -1467,3 +1467,7 @@ All notable changes are documented here.
 - refactor: rename position variable for clarity in backtest
 
 
+### 2025-06-30
+- refactor: separate pricing logic from Greeks computation
+
+
