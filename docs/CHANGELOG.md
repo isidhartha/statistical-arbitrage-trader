@@ -1471,3 +1471,7 @@ All notable changes are documented here.
 - refactor: separate pricing logic from Greeks computation
 
 
+### 2025-07-01
+- refactor: split large backtest loop into focused helpers
+
+
