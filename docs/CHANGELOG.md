@@ -1475,3 +1475,7 @@ All notable changes are documented here.
 - refactor: split large backtest loop into focused helpers
 
 
+### 2025-07-15
+- fix: correct cointegration p-value threshold comparison
+
+
