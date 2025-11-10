@@ -1483,3 +1483,7 @@ All notable changes are documented here.
 - fix: fix momentum score when lookback exceeds available data
 
 
+### 2025-07-17
+- feat: add full Greeks calculator delta gamma vega theta rho
+
+
