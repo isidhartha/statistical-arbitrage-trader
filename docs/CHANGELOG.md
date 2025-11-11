@@ -1487,3 +1487,7 @@ All notable changes are documented here.
 - feat: add full Greeks calculator delta gamma vega theta rho
 
 
+### 2025-07-24
+- fix: handle single-asset portfolio in ranking step
+
+
