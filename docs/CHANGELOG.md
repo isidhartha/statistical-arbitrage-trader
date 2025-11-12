@@ -1491,3 +1491,7 @@ All notable changes are documented here.
 - fix: handle single-asset portfolio in ranking step
 
 
+### 2025-07-24
+- feat: implement OptionParams dataclass for clean pricing API
+
+
