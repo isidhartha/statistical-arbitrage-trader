@@ -1495,3 +1495,7 @@ All notable changes are documented here.
 - feat: implement OptionParams dataclass for clean pricing API
 
 
+### 2025-07-27
+- docs: add mathematical derivation notes for Black-Scholes
+
+
