@@ -1499,3 +1499,7 @@ All notable changes are documented here.
 - docs: add mathematical derivation notes for Black-Scholes
 
 
+### 2025-07-30
+- feat: add long-only mode disabling short portfolio leg
+
+
