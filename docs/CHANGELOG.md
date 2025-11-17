@@ -1503,3 +1503,7 @@ All notable changes are documented here.
 - feat: add long-only mode disabling short portfolio leg
 
 
+### 2025-07-30
+- feat: implement option sensitivity sweep over spot range
+
+
