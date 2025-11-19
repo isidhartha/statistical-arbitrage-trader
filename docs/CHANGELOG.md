@@ -1507,3 +1507,7 @@ All notable changes are documented here.
 - feat: implement option sensitivity sweep over spot range
 
 
+### 2025-07-30
+- feat: implement cross-sectional momentum signal computation
+
+
