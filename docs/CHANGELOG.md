@@ -1511,3 +1511,7 @@ All notable changes are documented here.
 - feat: implement cross-sectional momentum signal computation
 
 
+### 2025-07-31
+- fix: handle zero vega edge case in Newton-Raphson loop
+
+
