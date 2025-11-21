@@ -1515,3 +1515,7 @@ All notable changes are documented here.
 - fix: handle zero vega edge case in Newton-Raphson loop
 
 
+### 2025-08-01
+- feat: implement reversal skip window for momentum strategy
+
+
