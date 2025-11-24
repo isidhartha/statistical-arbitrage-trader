@@ -1519,3 +1519,7 @@ All notable changes are documented here.
 - feat: implement reversal skip window for momentum strategy
 
 
+### 2025-08-01
+- refactor: split large backtest loop into focused helpers
+
+
