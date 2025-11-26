@@ -1527,3 +1527,7 @@ All notable changes are documented here.
 - feat: implement cross-sectional momentum signal computation
 
 
+### 2025-08-08
+- test: add momentum signal computation unit tests
+
+
