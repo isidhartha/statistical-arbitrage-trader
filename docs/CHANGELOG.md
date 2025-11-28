@@ -1531,3 +1531,7 @@ All notable changes are documented here.
 - test: add momentum signal computation unit tests
 
 
+### 2025-08-08
+- feat: add long-only mode disabling short portfolio leg
+
+
