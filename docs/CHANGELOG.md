@@ -1535,3 +1535,7 @@ All notable changes are documented here.
 - feat: add long-only mode disabling short portfolio leg
 
 
+### 2025-08-11
+- feat: implement maximum drawdown calculation from equity curve
+
+
