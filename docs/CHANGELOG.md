@@ -1539,3 +1539,7 @@ All notable changes are documented here.
 - feat: implement maximum drawdown calculation from equity curve
 
 
+### 2025-08-18
+- fix: handle empty returns series in performance stats
+
+
