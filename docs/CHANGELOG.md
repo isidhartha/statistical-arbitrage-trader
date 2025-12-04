@@ -1547,3 +1547,7 @@ All notable changes are documented here.
 - fix: correct cointegration p-value threshold comparison
 
 
+### 2025-08-27
+- docs: add Newton-Raphson convergence notes to API.md
+
+
