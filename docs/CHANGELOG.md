@@ -1551,3 +1551,7 @@ All notable changes are documented here.
 - docs: add Newton-Raphson convergence notes to API.md
 
 
+### 2025-09-05
+- feat: implement Black-Scholes pricing for European calls and puts
+
+
