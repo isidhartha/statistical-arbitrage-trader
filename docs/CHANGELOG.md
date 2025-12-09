@@ -1555,3 +1555,7 @@ All notable changes are documented here.
 - feat: implement Black-Scholes pricing for European calls and puts
 
 
+### 2025-09-08
+- fix: fix momentum score when lookback exceeds available data
+
+
