@@ -1559,3 +1559,7 @@ All notable changes are documented here.
 - fix: fix momentum score when lookback exceeds available data
 
 
+### 2025-09-10
+- feat: implement cross-sectional momentum signal computation
+
+
