@@ -1563,3 +1563,7 @@ All notable changes are documented here.
 - feat: implement cross-sectional momentum signal computation
 
 
+### 2025-09-13
+- fix: fix max drawdown calculation at series start
+
+
