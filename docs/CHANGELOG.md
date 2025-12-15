@@ -1567,3 +1567,7 @@ All notable changes are documented here.
 - fix: fix max drawdown calculation at series start
 
 
+### 2025-09-13
+- feat: add configurable lookback and holding period windows
+
+
