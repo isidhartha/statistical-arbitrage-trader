@@ -1571,3 +1571,7 @@ All notable changes are documented here.
 - feat: add configurable lookback and holding period windows
 
 
+### 2025-09-14
+- feat: implement rolling Z-score signal for mean-reversion
+
+
