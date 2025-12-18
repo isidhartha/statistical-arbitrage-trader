@@ -1575,3 +1575,7 @@ All notable changes are documented here.
 - feat: implement rolling Z-score signal for mean-reversion
 
 
+### 2025-09-18
+- feat: implement Black-Scholes pricing for European calls and puts
+
+
