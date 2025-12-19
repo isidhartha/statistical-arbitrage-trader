@@ -1579,3 +1579,7 @@ All notable changes are documented here.
 - feat: implement Black-Scholes pricing for European calls and puts
 
 
+### 2025-09-18
+- feat: implement Newton-Raphson implied volatility solver
+
+
