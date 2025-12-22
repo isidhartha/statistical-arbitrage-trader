@@ -1583,3 +1583,7 @@ All notable changes are documented here.
 - feat: implement Newton-Raphson implied volatility solver
 
 
+### 2025-09-22
+- feat: implement reversal skip window for momentum strategy
+
+
