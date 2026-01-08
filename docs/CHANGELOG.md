@@ -1591,3 +1591,7 @@ All notable changes are documented here.
 - docs: add momentum signal formula to architecture.md
 
 
+### 2025-10-02
+- feat: add 3-panel pair visualisation prices spread Z-score
+
+
