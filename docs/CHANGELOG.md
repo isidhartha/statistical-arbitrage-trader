@@ -1595,3 +1595,7 @@ All notable changes are documented here.
 - feat: add 3-panel pair visualisation prices spread Z-score
 
 
+### 2025-10-03
+- fix: handle empty returns series in performance stats
+
+
