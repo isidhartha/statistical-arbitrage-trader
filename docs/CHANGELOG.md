@@ -1603,3 +1603,7 @@ All notable changes are documented here.
 - docs: document Greeks interpretation and sign conventions
 
 
+### 2025-10-13
+- fix: handle sigma approaching zero in Black-Scholes formula
+
+
