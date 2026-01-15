@@ -1607,3 +1607,7 @@ All notable changes are documented here.
 - fix: handle sigma approaching zero in Black-Scholes formula
 
 
+### 2025-10-14
+- refactor: split large backtest loop into focused helpers
+
+
