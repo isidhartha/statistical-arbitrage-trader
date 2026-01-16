@@ -1611,3 +1611,7 @@ All notable changes are documented here.
 - refactor: split large backtest loop into focused helpers
 
 
+### 2025-10-15
+- perf: cache rolling mean and std to avoid recomputation
+
+
