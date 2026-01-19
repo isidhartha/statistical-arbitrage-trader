@@ -1615,3 +1615,7 @@ All notable changes are documented here.
 - perf: cache rolling mean and std to avoid recomputation
 
 
+### 2025-10-16
+- chore: add pre-commit config for black and ruff
+
+
