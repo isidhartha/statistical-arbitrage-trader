@@ -1619,3 +1619,7 @@ All notable changes are documented here.
 - chore: add pre-commit config for black and ruff
 
 
+### 2025-10-16
+- chore: add .gitignore entries for PNG output files
+
+
