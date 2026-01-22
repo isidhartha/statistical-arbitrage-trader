@@ -1623,3 +1623,7 @@ All notable changes are documented here.
 - chore: add .gitignore entries for PNG output files
 
 
+### 2025-10-20
+- feat: implement BacktestConfig dataclass with all parameters
+
+
