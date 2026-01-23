@@ -1627,3 +1627,7 @@ All notable changes are documented here.
 - feat: implement BacktestConfig dataclass with all parameters
 
 
+### 2025-10-25
+- fix: handle zero vega edge case in Newton-Raphson loop
+
+
