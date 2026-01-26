@@ -1631,3 +1631,7 @@ All notable changes are documented here.
 - fix: handle zero vega edge case in Newton-Raphson loop
 
 
+### 2025-10-25
+- perf: reduce memory allocation in simulation loop
+
+
