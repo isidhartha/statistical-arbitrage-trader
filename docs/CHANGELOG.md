@@ -1635,3 +1635,7 @@ All notable changes are documented here.
 - perf: reduce memory allocation in simulation loop
 
 
+### 2025-10-25
+- style: format all files with black
+
+
