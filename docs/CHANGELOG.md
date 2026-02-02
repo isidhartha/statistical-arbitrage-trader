@@ -1639,3 +1639,7 @@ All notable changes are documented here.
 - style: format all files with black
 
 
+### 2025-10-28
+- test: add momentum signal computation unit tests
+
+
