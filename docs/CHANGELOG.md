@@ -1643,3 +1643,7 @@ All notable changes are documented here.
 - test: add momentum signal computation unit tests
 
 
+### 2025-10-28
+- refactor: separate pricing logic from Greeks computation
+
+
