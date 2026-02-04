@@ -1647,3 +1647,7 @@ All notable changes are documented here.
 - refactor: separate pricing logic from Greeks computation
 
 
+### 2025-10-30
+- test: add ADF stationarity test on synthetic spread
+
+
