@@ -1651,3 +1651,7 @@ All notable changes are documented here.
 - test: add ADF stationarity test on synthetic spread
 
 
+### 2025-11-04
+- fix: resolve IV solver divergence for deep ITM options
+
+
