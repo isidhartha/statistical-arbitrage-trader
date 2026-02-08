@@ -1655,3 +1655,7 @@ All notable changes are documented here.
 - fix: resolve IV solver divergence for deep ITM options
 
 
+### 2025-11-05
+- chore: add .gitignore entries for PNG output files
+
+
