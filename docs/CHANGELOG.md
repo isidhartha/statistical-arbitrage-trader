@@ -1659,3 +1659,7 @@ All notable changes are documented here.
 - chore: add .gitignore entries for PNG output files
 
 
+### 2025-11-07
+- fix: correct cointegration p-value threshold comparison
+
+
