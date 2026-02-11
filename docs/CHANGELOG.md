@@ -1663,3 +1663,7 @@ All notable changes are documented here.
 - fix: correct cointegration p-value threshold comparison
 
 
+### 2025-11-10
+- fix: handle zero vega edge case in Newton-Raphson loop
+
+
