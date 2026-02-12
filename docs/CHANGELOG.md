@@ -1667,3 +1667,7 @@ All notable changes are documented here.
 - fix: handle zero vega edge case in Newton-Raphson loop
 
 
+### 2025-11-11
+- fix: correct transaction cost application per portfolio leg
+
+
