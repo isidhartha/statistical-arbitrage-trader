@@ -1671,3 +1671,7 @@ All notable changes are documented here.
 - fix: correct transaction cost application per portfolio leg
 
 
+### 2025-11-13
+- fix: handle single-asset portfolio in ranking step
+
+
