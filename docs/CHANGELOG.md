@@ -1679,3 +1679,7 @@ All notable changes are documented here.
 - docs: add momentum signal formula to architecture.md
 
 
+### 2025-11-16
+- feat: implement cross-sectional momentum signal computation
+
+
