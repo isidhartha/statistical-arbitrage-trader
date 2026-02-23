@@ -1683,3 +1683,7 @@ All notable changes are documented here.
 - feat: implement cross-sectional momentum signal computation
 
 
+### 2025-11-20
+- style: normalise import ordering with isort
+
+
