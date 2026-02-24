@@ -1687,3 +1687,7 @@ All notable changes are documented here.
 - style: normalise import ordering with isort
 
 
+### 2025-11-21
+- test: verify put-call parity holds for sampled params
+
+
