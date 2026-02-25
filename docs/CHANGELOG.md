@@ -1691,3 +1691,7 @@ All notable changes are documented here.
 - test: verify put-call parity holds for sampled params
 
 
+### 2025-11-21
+- test: add regression tests for all five Greeks
+
+
