@@ -1695,3 +1695,7 @@ All notable changes are documented here.
 - test: add regression tests for all five Greeks
 
 
+### 2025-11-25
+- docs: document all BacktestConfig parameters in README
+
+
