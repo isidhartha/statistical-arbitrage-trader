@@ -1699,3 +1699,7 @@ All notable changes are documented here.
 - docs: document all BacktestConfig parameters in README
 
 
+### 2025-12-04
+- fix: fix max drawdown calculation at series start
+
+
