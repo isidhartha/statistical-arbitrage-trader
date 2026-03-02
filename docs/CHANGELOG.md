@@ -1703,3 +1703,7 @@ All notable changes are documented here.
 - fix: fix max drawdown calculation at series start
 
 
+### 2025-12-05
+- feat: implement long-short portfolio construction from rankings
+
+
