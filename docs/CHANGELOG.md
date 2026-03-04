@@ -1707,3 +1707,7 @@ All notable changes are documented here.
 - feat: implement long-short portfolio construction from rankings
 
 
+### 2025-12-12
+- fix: fix stop-loss trigger for short positions
+
+
