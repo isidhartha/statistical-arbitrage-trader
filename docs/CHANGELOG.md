@@ -1715,3 +1715,7 @@ All notable changes are documented here.
 - docs: document cointegration theory in architecture.md
 
 
+### 2025-12-17
+- feat: implement Engle-Granger cointegration test screening
+
+
