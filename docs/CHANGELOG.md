@@ -1719,3 +1719,7 @@ All notable changes are documented here.
 - feat: implement Engle-Granger cointegration test screening
 
 
+### 2025-12-19
+- docs: add example usage for implied volatility solver
+
+
