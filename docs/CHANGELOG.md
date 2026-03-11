@@ -1723,3 +1723,7 @@ All notable changes are documented here.
 - docs: add example usage for implied volatility solver
 
 
+### 2025-12-19
+- fix: fix stop-loss trigger for short positions
+
+
