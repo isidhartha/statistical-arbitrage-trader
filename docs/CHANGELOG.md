@@ -1727,3 +1727,7 @@ All notable changes are documented here.
 - fix: fix stop-loss trigger for short positions
 
 
+### 2025-12-25
+- perf: cache rolling mean and std to avoid recomputation
+
+
