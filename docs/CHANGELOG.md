@@ -1731,3 +1731,7 @@ All notable changes are documented here.
 - perf: cache rolling mean and std to avoid recomputation
 
 
+### 2025-12-26
+- feat: implement Engle-Granger cointegration test screening
+
+
