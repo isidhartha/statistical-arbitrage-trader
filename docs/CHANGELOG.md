@@ -1735,3 +1735,7 @@ All notable changes are documented here.
 - feat: implement Engle-Granger cointegration test screening
 
 
+### 2025-12-28
+- fix: fix momentum score when lookback exceeds available data
+
+
