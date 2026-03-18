@@ -1739,3 +1739,7 @@ All notable changes are documented here.
 - fix: fix momentum score when lookback exceeds available data
 
 
+### 2026-01-05
+- feat: implement ADF stationarity test on spread series
+
+
