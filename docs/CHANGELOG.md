@@ -1743,3 +1743,7 @@ All notable changes are documented here.
 - feat: implement ADF stationarity test on spread series
 
 
+### 2026-01-10
+- feat: implement BacktestConfig dataclass with all parameters
+
+
