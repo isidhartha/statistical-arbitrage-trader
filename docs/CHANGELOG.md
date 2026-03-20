@@ -1747,3 +1747,7 @@ All notable changes are documented here.
 - feat: implement BacktestConfig dataclass with all parameters
 
 
+### 2026-01-12
+- refactor: extract plot configuration to named constants
+
+
