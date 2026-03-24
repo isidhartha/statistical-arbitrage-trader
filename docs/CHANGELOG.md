@@ -1751,3 +1751,7 @@ All notable changes are documented here.
 - refactor: extract plot configuration to named constants
 
 
+### 2026-01-14
+- fix: handle empty returns series in performance stats
+
+
