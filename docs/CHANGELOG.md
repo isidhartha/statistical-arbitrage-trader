@@ -1755,3 +1755,7 @@ All notable changes are documented here.
 - fix: handle empty returns series in performance stats
 
 
+### 2026-01-17
+- chore: add .gitignore entries for PNG output files
+
+
