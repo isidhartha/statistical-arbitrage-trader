@@ -1759,3 +1759,7 @@ All notable changes are documented here.
 - chore: add .gitignore entries for PNG output files
 
 
+### 2026-01-18
+- fix: resolve IV solver divergence for deep ITM options
+
+
