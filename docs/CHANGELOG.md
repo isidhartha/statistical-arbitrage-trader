@@ -1763,3 +1763,7 @@ All notable changes are documented here.
 - fix: resolve IV solver divergence for deep ITM options
 
 
+### 2026-01-20
+- feat: implement BacktestConfig dataclass with all parameters
+
+
