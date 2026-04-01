@@ -1767,3 +1767,7 @@ All notable changes are documented here.
 - feat: implement BacktestConfig dataclass with all parameters
 
 
+### 2026-01-20
+- fix: handle single-asset portfolio in ranking step
+
+
