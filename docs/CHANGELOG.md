@@ -1771,3 +1771,7 @@ All notable changes are documented here.
 - fix: handle single-asset portfolio in ranking step
 
 
+### 2026-01-26
+- test: add unit tests for Black-Scholes call price
+
+
