@@ -1775,3 +1775,7 @@ All notable changes are documented here.
 - test: add unit tests for Black-Scholes call price
 
 
+### 2026-01-26
+- feat: implement maximum drawdown calculation from equity curve
+
+
