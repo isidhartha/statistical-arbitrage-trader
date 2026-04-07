@@ -1779,3 +1779,7 @@ All notable changes are documented here.
 - feat: implement maximum drawdown calculation from equity curve
 
 
+### 2026-02-03
+- perf: vectorise momentum score computation with numpy
+
+
