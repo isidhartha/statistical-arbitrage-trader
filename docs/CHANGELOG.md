@@ -1783,3 +1783,7 @@ All notable changes are documented here.
 - perf: vectorise momentum score computation with numpy
 
 
+### 2026-02-04
+- feat: add 6-panel sensitivity dashboard with matplotlib
+
+
