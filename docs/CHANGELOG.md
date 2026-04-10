@@ -1787,3 +1787,7 @@ All notable changes are documented here.
 - feat: add 6-panel sensitivity dashboard with matplotlib
 
 
+### 2026-02-05
+- feat: add annualised CAGR and Sharpe ratio computation
+
+
