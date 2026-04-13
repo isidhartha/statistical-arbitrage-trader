@@ -1791,3 +1791,7 @@ All notable changes are documented here.
 - feat: add annualised CAGR and Sharpe ratio computation
 
 
+### 2026-02-12
+- docs: add mathematical derivation notes for Black-Scholes
+
+
