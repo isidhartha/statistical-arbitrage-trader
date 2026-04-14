@@ -1795,3 +1795,7 @@ All notable changes are documented here.
 - docs: add mathematical derivation notes for Black-Scholes
 
 
+### 2026-02-16
+- refactor: extract plot configuration to named constants
+
+
