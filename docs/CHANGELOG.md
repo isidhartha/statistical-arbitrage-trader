@@ -1799,3 +1799,7 @@ All notable changes are documented here.
 - refactor: extract plot configuration to named constants
 
 
+### 2026-02-16
+- feat: add entry exit and stop-loss threshold configuration
+
+
