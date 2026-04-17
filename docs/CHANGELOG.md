@@ -1803,3 +1803,7 @@ All notable changes are documented here.
 - feat: add entry exit and stop-loss threshold configuration
 
 
+### 2026-02-17
+- refactor: move synthetic data generators to data_utils
+
+
