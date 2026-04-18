@@ -1807,3 +1807,7 @@ All notable changes are documented here.
 - refactor: move synthetic data generators to data_utils
 
 
+### 2026-02-18
+- feat: add OLS hedge ratio estimation for spread construction
+
+
