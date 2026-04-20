@@ -1811,3 +1811,7 @@ All notable changes are documented here.
 - feat: add OLS hedge ratio estimation for spread construction
 
 
+### 2026-02-23
+- fix: handle sigma approaching zero in Black-Scholes formula
+
+
