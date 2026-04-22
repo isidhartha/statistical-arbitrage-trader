@@ -1815,3 +1815,7 @@ All notable changes are documented here.
 - fix: handle sigma approaching zero in Black-Scholes formula
 
 
+### 2026-02-23
+- feat: add full Greeks calculator delta gamma vega theta rho
+
+
