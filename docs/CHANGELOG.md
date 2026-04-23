@@ -1819,3 +1819,7 @@ All notable changes are documented here.
 - feat: add full Greeks calculator delta gamma vega theta rho
 
 
+### 2026-02-24
+- feat: add transaction cost modelling in basis points
+
+
