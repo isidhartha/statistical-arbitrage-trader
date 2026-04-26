@@ -1823,3 +1823,7 @@ All notable changes are documented here.
 - feat: add transaction cost modelling in basis points
 
 
+### 2026-02-26
+- feat: implement BacktestConfig dataclass with all parameters
+
+
