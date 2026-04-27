@@ -1827,3 +1827,7 @@ All notable changes are documented here.
 - feat: implement BacktestConfig dataclass with all parameters
 
 
+### 2026-03-05
+- perf: cache rolling mean and std to avoid recomputation
+
+
