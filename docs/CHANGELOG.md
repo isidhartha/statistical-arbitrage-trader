@@ -1831,3 +1831,7 @@ All notable changes are documented here.
 - perf: cache rolling mean and std to avoid recomputation
 
 
+### 2026-03-05
+- feat: implement OptionParams dataclass for clean pricing API
+
+
