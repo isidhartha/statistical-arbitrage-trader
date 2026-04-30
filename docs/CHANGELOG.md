@@ -1835,3 +1835,7 @@ All notable changes are documented here.
 - feat: implement OptionParams dataclass for clean pricing API
 
 
+### 2026-03-05
+- docs: add Newton-Raphson convergence notes to API.md
+
+
