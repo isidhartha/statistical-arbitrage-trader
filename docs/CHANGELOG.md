@@ -1839,3 +1839,7 @@ All notable changes are documented here.
 - docs: add Newton-Raphson convergence notes to API.md
 
 
+### 2026-03-06
+- docs: add mathematical derivation notes for Black-Scholes
+
+
