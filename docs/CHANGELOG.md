@@ -1843,3 +1843,7 @@ All notable changes are documented here.
 - docs: add mathematical derivation notes for Black-Scholes
 
 
+### 2026-03-10
+- test: add regression tests for all five Greeks
+
+
