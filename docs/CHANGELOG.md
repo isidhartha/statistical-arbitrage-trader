@@ -1847,3 +1847,7 @@ All notable changes are documented here.
 - test: add regression tests for all five Greeks
 
 
+### 2026-03-12
+- feat: add PairsConfig dataclass for pairs trading settings
+
+
