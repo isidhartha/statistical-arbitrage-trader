@@ -1851,3 +1851,7 @@ All notable changes are documented here.
 - feat: add PairsConfig dataclass for pairs trading settings
 
 
+### 2026-03-16
+- fix: handle zero vega edge case in Newton-Raphson loop
+
+
