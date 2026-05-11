@@ -1855,3 +1855,7 @@ All notable changes are documented here.
 - fix: handle zero vega edge case in Newton-Raphson loop
 
 
+### 2026-03-16
+- feat: add equity curve export as PNG chart
+
+
