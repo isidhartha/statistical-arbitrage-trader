@@ -1859,3 +1859,7 @@ All notable changes are documented here.
 - feat: add equity curve export as PNG chart
 
 
+### 2026-03-18
+- fix: handle sigma approaching zero in Black-Scholes formula
+
+
