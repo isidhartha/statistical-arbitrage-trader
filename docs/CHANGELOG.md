@@ -1863,3 +1863,7 @@ All notable changes are documented here.
 - fix: handle sigma approaching zero in Black-Scholes formula
 
 
+### 2026-03-28
+- refactor: extract plot configuration to named constants
+
+
