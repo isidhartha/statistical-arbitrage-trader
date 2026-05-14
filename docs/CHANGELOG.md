@@ -1867,3 +1867,7 @@ All notable changes are documented here.
 - refactor: extract plot configuration to named constants
 
 
+### 2026-03-31
+- test: add ADF stationarity test on synthetic spread
+
+
