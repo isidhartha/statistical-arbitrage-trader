@@ -1871,3 +1871,7 @@ All notable changes are documented here.
 - test: add ADF stationarity test on synthetic spread
 
 
+### 2026-03-31
+- fix: handle single-asset portfolio in ranking step
+
+
