@@ -1879,3 +1879,7 @@ All notable changes are documented here.
 - test: add momentum signal computation unit tests
 
 
+### 2026-04-07
+- fix: resolve NaN spread values at start of rolling window
+
+
