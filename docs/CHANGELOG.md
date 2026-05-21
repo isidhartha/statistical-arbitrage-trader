@@ -1883,3 +1883,7 @@ All notable changes are documented here.
 - fix: resolve NaN spread values at start of rolling window
 
 
+### 2026-04-13
+- refactor: extract d1 d2 computation into shared helper
+
+
