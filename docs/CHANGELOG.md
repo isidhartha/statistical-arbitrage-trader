@@ -1891,3 +1891,7 @@ All notable changes are documented here.
 - feat: add 6-panel sensitivity dashboard with matplotlib
 
 
+### 2026-04-17
+- style: format all files with black
+
+
