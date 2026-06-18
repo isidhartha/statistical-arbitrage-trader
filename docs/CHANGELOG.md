@@ -1895,3 +1895,7 @@ All notable changes are documented here.
 - style: format all files with black
 
 
+### 2026-04-20
+- style: fix ruff lint violations across modules
+
+
