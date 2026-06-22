@@ -1899,3 +1899,7 @@ All notable changes are documented here.
 - style: fix ruff lint violations across modules
 
 
+### 2026-04-28
+- perf: cache rolling mean and std to avoid recomputation
+
+
