@@ -1903,3 +1903,7 @@ All notable changes are documented here.
 - perf: cache rolling mean and std to avoid recomputation
 
 
+### 2026-05-08
+- feat: implement maximum drawdown calculation from equity curve
+
+
