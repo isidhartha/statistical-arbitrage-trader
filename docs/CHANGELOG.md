@@ -1907,3 +1907,7 @@ All notable changes are documented here.
 - feat: implement maximum drawdown calculation from equity curve
 
 
+### 2026-05-09
+- fix: fix max drawdown calculation at series start
+
+
