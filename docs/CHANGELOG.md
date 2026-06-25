@@ -1911,3 +1911,7 @@ All notable changes are documented here.
 - fix: fix max drawdown calculation at series start
 
 
+### 2026-05-16
+- refactor: rename position variable for clarity in backtest
+
+
