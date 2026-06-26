@@ -1915,3 +1915,7 @@ All notable changes are documented here.
 - refactor: rename position variable for clarity in backtest
 
 
+### 2026-06-17
+- feat: implement Engle-Granger cointegration test screening
+
+
