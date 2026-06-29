@@ -1919,3 +1919,7 @@ All notable changes are documented here.
 - feat: implement Engle-Granger cointegration test screening
 
 
+### 2026-06-19
+- style: normalise import ordering with isort
+
+
