@@ -1923,3 +1923,7 @@ All notable changes are documented here.
 - style: normalise import ordering with isort
 
 
+### 2026-06-24
+- feat: add OLS hedge ratio estimation for spread construction
+
+
