@@ -1927,3 +1927,7 @@ All notable changes are documented here.
 - feat: add OLS hedge ratio estimation for spread construction
 
 
+### 2026-06-24
+- feat: add full Greeks calculator delta gamma vega theta rho
+
+
