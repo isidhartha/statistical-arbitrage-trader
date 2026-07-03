@@ -1931,3 +1931,7 @@ All notable changes are documented here.
 - feat: add full Greeks calculator delta gamma vega theta rho
 
 
+### 2026-06-27
+- style: format all files with black
+
+
