@@ -1935,3 +1935,7 @@ All notable changes are documented here.
 - style: format all files with black
 
 
+### 2026-06-30
+- perf: vectorise momentum score computation with numpy
+
+
