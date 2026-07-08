@@ -1,5 +1,7 @@
 # Statistical Arbitrage Trader
 
+[![Discussions](https://img.shields.io/github/discussions/isidhartha/statistical-arbitrage-trader)](https://github.com/isidhartha/statistical-arbitrage-trader/discussions)
+
 A pairs trading strategy backtester built on cointegration analysis and Z-score-based entry/exit signals. It tests all asset combinations for cointegration, computes OLS hedge ratios, and backtests a mean-reversion strategy on the most significantly cointegrated pair.
 
 ---
