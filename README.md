@@ -1,5 +1,7 @@
 # Statistical Arbitrage Trader
 
+[![Discussions](https://img.shields.io/github/discussions/isidhartha/statistical-arbitrage-trader)](https://github.com/isidhartha/statistical-arbitrage-trader/discussions)
+
 A pairs trading backtester built on cointegration analysis and Z-score mean-reversion signals. It scans all asset combinations for statistically significant cointegration, estimates OLS hedge ratios for the best pairs, and backtests a long/short strategy with configurable entry, exit, and stop-loss Z-score thresholds.
 
 The core idea is that two cointegrated assets share a long-run equilibrium relationship. When their spread deviates far enough from its rolling mean (Z-score > entry threshold), you take the trade expecting the spread to revert. You close when it comes back in (Z-score < exit threshold) or hit a stop-loss if it keeps going the wrong way. The hedge ratio from OLS regression keeps the trade approximately dollar-neutral on each side.
