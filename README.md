@@ -4,6 +4,8 @@
 
 A pairs trading backtester built on cointegration analysis and Z-score mean-reversion signals. It scans all asset combinations for statistically significant cointegration, estimates OLS hedge ratios for the best pairs, and backtests a long/short strategy with configurable entry, exit, and stop-loss Z-score thresholds.
 
+I've been interested in pairs trading as a market-neutral strategy for a while, but most implementations I found were either too simplified or buried in a paid subscription. This is my clean implementation from scratch: Engle-Granger cointegration, OLS hedge ratios, rolling Z-score, and a full backtest loop with transaction costs.
+
 The core idea is that two cointegrated assets share a long-run equilibrium relationship. When their spread deviates far enough from its rolling mean (Z-score > entry threshold), you take the trade expecting the spread to revert. You close when it comes back in (Z-score < exit threshold) or hit a stop-loss if it keeps going the wrong way. The hedge ratio from OLS regression keeps the trade approximately dollar-neutral on each side.
 
 No real price data needed — the script generates a synthetic cointegrated pair (ASSET_A and ASSET_B with B = 1.5*A + noise) and an unrelated asset (ASSET_C) so you can see the full pipeline run immediately.
@@ -84,7 +86,18 @@ transaction_cost    : 5.0  bps per leg per trade
 
 ## Demo
 
-> Run `python pairs_trader.py` to generate `pair_ASSET_A_ASSET_B.png`. Screenshot coming soon.
+![Desktop view](docs/images/screenshot_desktop.png)
+
+![Feature highlight](docs/images/screenshot_feature.png)
+
+<details>
+<summary>Mobile / compact view</summary>
+
+![Mobile view](docs/images/screenshot_mobile.png)
+
+</details>
+
+![Demo walkthrough](docs/images/demo.gif)
 
 ## Contributing
 
