@@ -1,216 +1,97 @@
 # Statistical Arbitrage Trader
 
-[![Discussions](https://img.shields.io/github/discussions/isidhartha/statistical-arbitrage-trader)](https://github.com/isidhartha/statistical-arbitrage-trader/discussions)
+A pairs trading backtester built on cointegration analysis and Z-score mean-reversion signals. It scans all asset combinations for statistically significant cointegration, estimates OLS hedge ratios for the best pairs, and backtests a long/short strategy with configurable entry, exit, and stop-loss Z-score thresholds.
 
-A pairs trading strategy backtester built on cointegration analysis and Z-score-based entry/exit signals. It tests all asset combinations for cointegration, computes OLS hedge ratios, and backtests a mean-reversion strategy on the most significantly cointegrated pair.
+The core idea is that two cointegrated assets share a long-run equilibrium relationship. When their spread deviates far enough from its rolling mean (Z-score > entry threshold), you take the trade expecting the spread to revert. You close when it comes back in (Z-score < exit threshold) or hit a stop-loss if it keeps going the wrong way. The hedge ratio from OLS regression keeps the trade approximately dollar-neutral on each side.
 
----
+No real price data needed — the script generates a synthetic cointegrated pair (ASSET_A and ASSET_B with B = 1.5*A + noise) and an unrelated asset (ASSET_C) so you can see the full pipeline run immediately.
 
 ## Features
 
-- **`PairsConfig` dataclass** — single configuration object for all strategy parameters
-- **`test_cointegration()`** — pairwise Engle-Granger cointegration test across all asset combinations, filtered at p < 0.05
-- **`compute_spread()`** — OLS hedge ratio estimation and spread construction (`spread = A - beta * B`)
-- **`compute_zscore()`** — rolling Z-score normalisation of the spread
-- **`backtest_pair()`** — event-driven backtest loop with Z-score entry, exit, and stop-loss logic
-- **`run_adf()`** — Augmented Dickey-Fuller stationarity test on the spread
-- **`plot_pair()`** — three-panel chart showing price series, spread, and Z-score with signal thresholds
-- **Synthetic data fallback** — generates a known cointegrated pair (A, B) and an unrelated asset (C) when no CSV is present
-
----
-
-## `PairsConfig` Defaults
-
-```python
-@dataclass
-class PairsConfig:
-    lookback_window: int = 60       # days for rolling spread mean/std
-    entry_z: float = 2.0            # Z-score to open a position
-    exit_z: float = 0.5             # Z-score to close a position
-    stop_loss_z: float = 4.0        # Z-score stop-loss
-    transaction_cost_bps: float = 5.0
-```
-
----
-
-## How It Works
-
-### Cointegration Testing — `test_cointegration(prices, p_threshold=0.05)`
-
-Uses `statsmodels.tsa.stattools.coint` (Engle-Granger two-step method) to test every unique pair of assets from `itertools.combinations`. Only pairs with a p-value below `p_threshold` are retained. Results are returned as a list of `(asset_a, asset_b, p_value)` tuples sorted by ascending p-value, so the most strongly cointegrated pair comes first.
-
-### OLS Hedge Ratio — `compute_spread(series_a, series_b)`
-
-Fits an OLS regression of asset A on asset B (with a constant) using `statsmodels`:
-
-```
-A = alpha + beta * B + epsilon
-spread = A - beta * B
-```
-
-Returns the spread series and the estimated `beta`. This hedge ratio keeps the spread approximately dollar-neutral.
-
-### Z-Score — `compute_zscore(spread, window)`
-
-Normalises the spread using a rolling window of `lookback_window` days:
-
-```
-z = (spread - rolling_mean) / rolling_std
-```
-
-### Entry / Exit / Stop-Loss Logic — `backtest_pair()`
-
-The strategy holds a single unit at a time (`position` is -1, 0, or +1):
-
-| State | Condition | Action |
-|-------|-----------|--------|
-| Flat | `z < -entry_z` (z < -2.0) | Enter long A / short B (position = +1) |
-| Flat | `z > +entry_z` (z > +2.0) | Enter short A / long B (position = -1) |
-| Long (+1) | `z > -exit_z` (z > -0.5) | Close position |
-| Long (+1) | `z > +stop_loss_z` (z > +4.0) | Close position (stop-loss) |
-| Short (-1) | `z < +exit_z` (z < +0.5) | Close position |
-| Short (-1) | `z < -stop_loss_z` (z < -4.0) | Close position (stop-loss) |
-
-Daily PnL for a held position:
-
-```
-pnl = position * (ret_A - beta * ret_B)
-```
-
-Transaction costs of `transaction_cost_bps / 10000` are deducted whenever `position` changes.
-
-### ADF Test — `run_adf(spread)`
-
-Runs `statsmodels.tsa.stattools.adfuller` on the spread (after dropping NaNs) and returns:
-
-```python
-{"ADF Statistic": float, "p-value": float}
-```
-
-A low p-value (typically < 0.05) confirms the spread is stationary, validating the pairs trade.
-
-### `plot_pair()` — Three-Panel Chart
-
-Produces a 12 x 10-inch figure with three vertically stacked, time-aligned panels and saves it to `pair_ASSET_A_ASSET_B.png` at 150 dpi:
-
-| Panel | Content | Colour |
-|-------|---------|--------|
-| Top | Raw price series for both assets on the same axis | Default |
-| Middle | OLS spread (`A - beta * B`) | Purple |
-| Bottom | Rolling Z-score with dashed horizontal lines at `+/-entry_z` and `+/-exit_z` | Teal |
-
----
+- **`test_cointegration()`** — runs Engle-Granger pairwise tests across all combinations using `statsmodels.tsa.stattools.coint`; returns pairs sorted by ascending p-value at `p < 0.05`
+- **`compute_spread()`** — OLS regression of A on B via `statsmodels.regression.linear_model.OLS`; returns `spread = A - beta * B` and the hedge ratio `beta`
+- **`compute_zscore()`** — rolling Z-score normalisation over a configurable `lookback_window`: `(spread - rolling_mean) / rolling_std`
+- **`backtest_pair()`** — event-driven loop with three position states (+1 long A/short B, -1 short A/long B, 0 flat); entry at `|z| > 2.0`, exit at `|z| < 0.5`, stop-loss at `|z| > 4.0`; transaction costs deducted on position changes
+- **`run_adf()`** — Augmented Dickey-Fuller stationarity test on the spread to validate mean-reversion assumption; reports ADF statistic and p-value
+- **`plot_pair()`** — three-panel 12×10 matplotlib figure: price series, OLS spread, and rolling Z-score with dashed signal threshold lines; saved as `pair_A_B.png`
+- **`PairsConfig` dataclass** — all strategy parameters in one place: `lookback_window`, `entry_z`, `exit_z`, `stop_loss_z`, `transaction_cost_bps`
+- **Synthetic cointegrated data** — `_synthetic_cointegrated_prices()` generates a known pair (B = 1.5*A + noise) for testing; uses `numpy.random.default_rng(7)` for reproducibility
 
 ## Tech Stack
 
-| Library | Version | Purpose |
-|---------|---------|---------|
-| pandas | >= 2.0 | Time-indexed price data and return series |
-| numpy | >= 1.24 | Numerical operations, synthetic price generation |
-| statsmodels | >= 0.14 | `coint`, `adfuller`, `OLS` regression |
-| matplotlib | >= 3.7 | Three-panel pair analysis chart |
-
----
+| Library | Purpose |
+|---|---|
+| `pandas` | Date-indexed price data and return series |
+| `numpy` | Numerical operations, synthetic price generation |
+| `statsmodels` | `coint`, `adfuller`, OLS regression |
+| `matplotlib` | Three-panel pair analysis chart |
 
 ## Setup
 
 ```bash
+git clone https://github.com/isidhartha/statistical-arbitrage-trader.git
+cd statistical-arbitrage-trader
 pip install -r requirements.txt
 ```
 
-Optionally place your price data at `data/prices.csv` with a date index and one column per asset. If absent the script uses built-in synthetic cointegrated data.
+Optionally place price data at `data/prices.csv` with a date index and one column per asset. Without it the script uses synthetic data.
 
 ```bash
 python pairs_trader.py
 ```
 
----
-
-## Architecture
-
-```mermaid
-flowchart TD
-    A[Price CSV\ndata/prices.csv] -->|load_prices| B[prices DataFrame]
-    B --> C[test_cointegration\nEngle-Granger pairwise\np < 0.05 filter]
-    C -->|best pair| D[compute_spread\nOLS hedge ratio beta\nspread = A - beta * B]
-    D --> E[compute_zscore\nrolling mean and std\nwindow = 60 days]
-    E --> F[backtest_pair\nentry z=2.0 · exit z=0.5\nstop-loss z=4.0]
-    F --> G[Performance Stats\nTotal Return · Ann. Return\nVolatility · Sharpe]
-    D --> H[run_adf\nADF stationarity test\non spread]
-    D --> I[plot_pair\n3-panel chart\npair_A_B.png]
-    E --> I
-```
-
----
-
-## Usage Example
+**As a library:**
 
 ```python
-from pairs_trader import (
-    PairsConfig, load_prices, test_cointegration,
-    backtest_pair, compute_spread, run_adf, plot_pair
-)
+from pairs_trader import PairsConfig, load_prices, test_cointegration, backtest_pair, run_adf, plot_pair
 
 cfg = PairsConfig(entry_z=2.0, exit_z=0.5, stop_loss_z=4.0)
 prices = load_prices("data/prices.csv")
 
 pairs = test_cointegration(prices)
 best_a, best_b, pval = pairs[0]
-print(f"Best pair: {best_a}/{best_b}  p={pval:.4f}")
 
 returns = backtest_pair(prices, best_a, best_b, cfg)
-
-spread, beta = compute_spread(prices[best_a], prices[best_b])
-adf = run_adf(spread)
-print(f"ADF p-value: {adf['p-value']:.4f}")
-
 plot_pair(prices, best_a, best_b, cfg)
 ```
 
-Running `python pairs_trader.py` directly prints:
+## Architecture
+
+```mermaid
+flowchart TD
+    A[prices.csv\nor synthetic pair] --> B[load_prices]
+    B --> C[test_cointegration\nEngle-Granger pairwise\np less than 0.05]
+    C -- best pair --> D[compute_spread\nOLS hedge ratio\nspread = A - beta times B]
+    D --> E[compute_zscore\nrolling window 60d]
+    E --> F[backtest_pair\nentry z=2.0\nexit z=0.5\nstop-loss z=4.0]
+    F --> G[Performance Stats\nTotal Return · Ann Return\nVolatility · Sharpe]
+    D --> H[run_adf\nstationarity test]
+    D --> I[plot_pair\n3-panel chart PNG]
+    E --> I
+```
+
+**Default strategy parameters:**
 
 ```
-Testing for cointegrated pairs...
-Found 1 cointegrated pair(s):
-  ASSET_A / ASSET_B  (p=0.0001)
-
-Backtest: ASSET_A/ASSET_B
-  Total Return : x.xx%
-  Ann. Return  : x.xx%
-  Volatility   : x.xx%
-  Sharpe Ratio : x.xx
-  ADF p-value  : 0.0001
-Saved pair_ASSET_A_ASSET_B.png
+lookback_window     : 60   days (rolling spread Z-score)
+entry_z             : 2.0  standard deviations
+exit_z              : 0.5  standard deviations
+stop_loss_z         : 4.0  standard deviations
+transaction_cost    : 5.0  bps per leg per trade
 ```
-
----
-
-## Screenshots
-
-| Pairs Analysis Chart |
-|---|
-| *(run `python pairs_trader.py` to generate `pair_ASSET_A_ASSET_B.png`)* |
-
----
-
-## Author
-
-**Ram Sidhartha**
-
----
 
 ## Demo
 
-![Demo](docs/images/demo.gif)
+> Run `python pairs_trader.py` to generate `pair_ASSET_A_ASSET_B.png`. Screenshot coming soon.
 
-### Desktop View
+## Contributing
 
-![Desktop screenshot](docs/images/screenshot_desktop.png)
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-### Key Feature
+## License
 
-![Feature screenshot](docs/images/screenshot_feature.png)
+MIT
 
-### Mobile View
+## Author
 
-![Mobile screenshot](docs/images/screenshot_mobile.png)
+[isidhartha](https://github.com/isidhartha)
